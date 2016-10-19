@@ -1,7 +1,7 @@
 ---
 layout: default
 category: conferencia
-image: logo-cts-lab.png
+image: logo_cts_lab.png
 title: Construindo o Brasil Digital
 description: |
 ---
