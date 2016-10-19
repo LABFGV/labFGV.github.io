@@ -126,8 +126,9 @@ h6 {
 
 .banner h2 {
     margin: 0;
-    text-shadow: 4px 4px 6px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
+	color: black;
 }
 
 .banner ul {
@@ -150,8 +151,9 @@ h6 {
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
-        text-shadow: 4px 4px 6px rgba(0,0,0,0.7);
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
+	    color: black;
     }
 
     ul.banner-social-buttons > li {
