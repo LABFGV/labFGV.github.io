@@ -4,9 +4,17 @@
             <div class="col-1-1">
               <hr class="sec-divider">
                 <br>
-              <h2>Nossos apoiadores:</h2>
-              <br><br/>
+              <h2>Apoio:</h2>
             </div>
+              <br><br/>
+            <div class="row">
+                {% for parceiro in site.parceiros %}
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{parceiro.url}}">
+                        <img src="{{parceiro.logo}}" class="img-responsive img-centered" alt="">
+                    </a>
+                            {% endfor %}
+            <!--</div>
                 <body>
                    <div class="col-md-3 col-sm-6">
                        <a href="#">
@@ -23,8 +31,10 @@
                 </body>
                 <br><br/>
             <br>
-            <br>
+            <br> -->
+            </div>
+                </div>
             <hr class="sec-divider">
-            <br><br/>
+            <br>
         </div>
     </section>
