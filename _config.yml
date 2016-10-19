@@ -28,7 +28,7 @@ social:
     url: https://m.facebook.com/conferenciadesafiobrasil/
 
 # ----------------------- #
-#   3rd Party Settings    #
+#         members         #
 # ----------------------- #
 
 people:
@@ -36,9 +36,5 @@ people:
   pic: 1
   position: Ministro da Educação
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: https://pt-br.facebook.com/mendoncafilhoPE/ #
-    - title: stack-overflow
-      url: #
+      url: https://pt-br.facebook.com/mendoncafilhoPE/
