@@ -47,18 +47,18 @@ people:
 
 parceiros:
 
-- brand: Instituto República
+- parceiro: Instituto República
   logo: republica.png
   url: www.institutorepublica.edu.ar/
   
-- brand: Instituto Publix
+- parceiro: Instituto Publix
   logo: publix.png
   url: www.institutopublix.com.br/
   
-- brand: Mapa Educação
+- parceiro: Mapa Educação
   logo: mapa.png
   url: www.mapaeducacao.com/
   
-- brand: FGV Social
+- parceiro: FGV Social
   logo: fgv-social.png
   url: cps.fgv.br/
