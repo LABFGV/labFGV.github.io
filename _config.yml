@@ -8,8 +8,8 @@ email: labfgv@gmail.com
 author: Laboratório de Políticas Públicas da FGV
 description: > # "Write an awesome description for your new site here. 
   A Conferência Desafio Brasil discute o desenvolvimento do Brasil.
-copyright: 'Copyright &copy; 2016 labFGV.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+copyright: 'Copyright &copy; 2016 <a href="http://www.labfgv.com/">Lab FGV</a>.'
+credits: 'Créditos: Landing Page by <a href="http://startbootstrap.com/">Start Bootstrap</a>; <a href="https://pages.github.com/">GitHub Pages</a>; <a href="https://jekyllrb.com/">Jekyll</a>.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
