@@ -49,16 +49,16 @@ parceiros:
 
 - parceiro: Instituto República
   logo: republica.png
-  url: www.institutorepublica.edu.ar/
+  url: http://www.institutorepublica.edu.ar/
   
 - parceiro: Instituto Publix
   logo: publix.png
-  url: www.institutopublix.com.br/
+  url: http://www.institutopublix.com.br/
   
 - parceiro: Mapa Educação
   logo: mapa.png
-  url: www.mapaeducacao.com/
+  url: http://www.mapaeducacao.com/
   
 - parceiro: FGV Social
   logo: fgv-social.png
-  url: cps.fgv.br/
+  url: http://cps.fgv.br/
