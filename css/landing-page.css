@@ -35,6 +35,13 @@ h6 {
     background-size: cover;
 }
 
+@media (max-width: 560px) {
+	.intro-header{
+		background: url(../img/desafio-large.png) no-repeat center center;
+	}
+	
+}
+
 .intro-message {
     position: relative;
     padding-top: 20%;
