@@ -20,7 +20,7 @@ markdown: kramdown
 permalink: pretty
 
 # ----------------------- #
-#   3rd Party Settings    #
+#         social          #
 # ----------------------- #
 
 social:
@@ -40,3 +40,25 @@ people:
   social:
     - title: facebook
       url: https://pt-br.facebook.com/mendoncafilhoPE/
+      
+# ----------------------- #
+#          apoio          #
+# ----------------------- #
+
+parceiros:
+
+- brand: Instituto República
+  logo: republica.png
+  url: www.institutorepublica.edu.ar/
+  
+- brand: Instituto Publix
+  logo: publix.png
+  url: www.institutopublix.com.br/
+  
+- brand: Mapa Educação
+  logo: mapa.png
+  url: www.mapaeducacao.com/
+  
+- brand: FGV Social
+  logo: fgv-social.png
+  url: cps.fgv.br/
