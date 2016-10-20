@@ -78,7 +78,7 @@ people:
   minibio: Secretário de Telecomunicações do Ministério das Comunicações.
   social:
     - title: facebook
-       url: https://www.facebook.com/maximiliano.martinhao
+      url: https://www.facebook.com/maximiliano.martinhao
     - title: linkedin
       url: https://www.linkedin.com/in/maximiliano-s-martinh%C3%A3o-b1a1ab
 
@@ -87,7 +87,7 @@ people:
   minibio: Professor emérito da Universidade Federal de Pernambuco e Professor da DIREITO RIO/FGV.
   social:
     - title: twitter
-       url: https://twitter.com/srlm
+      url: https://twitter.com/srlm
     - title: linkedin
       url: https://www.linkedin.com/in/silviomeira
 
@@ -96,7 +96,7 @@ people:
   minibio: É co-fundador da MGov-Brasil, plataforma que provê ferramentas para gestores públicos baseadas na coleta de dados através de telefone celular.  
   social:
     - title: file-text-o
-       url: http://www.mgovbrasil.com.br/
+      url: http://www.mgovbrasil.com.br/
     - title: facebook
       url: https://www.facebook.com/mgovbr/ 
     - title: linkedin
@@ -107,7 +107,7 @@ people:
   minibio: É fundador do Colab, uma rede social para cidadania em que o usuário é capaz de fiscalizar, propor e avaliar diversos pontos da sua cidade, estado e país. 
   social:
     - title: file-text-o
-       url: http://www.colab.re/ 
+      url: http://www.colab.re/ 
     - title: facebook
       url: https://www.facebook.com/colab.re/
     - title: linkedin
