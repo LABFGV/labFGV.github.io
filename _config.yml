@@ -37,10 +37,21 @@ people:
 - name: José Mendonça Bezerra Filho
   pic: 1
   position: Ministro da Educação
+  mesa: educacao
+  gt: 0
   social:
+    - title: o-file
     - title: facebook
       url: https://pt-br.facebook.com/mendoncafilhoPE/
       
+- name: Lígia Stocche Barbosa
+  pic: ligia
+  minibio: Engenheira de formação, mas ao longo da vida migrou para a educação. É fundadora e membro do conselho deliberativo do Movimento Mapa Educação e trabalha na Fundação Lemann.
+  gt: 0
+  mesa: educacao
+  social:
+    - title: file-text-o
+    url: http://www.mapaeducacao.com/quemsomos.html
 # ----------------------- #
 #          apoio          #
 # ----------------------- #
@@ -62,3 +73,12 @@ parceiros:
 - parceiro: FGV Social
   logo: fgv-social.png
   url: http://cps.fgv.br/
+  
+ - parceiro: CIEB
+    logo: cieb.png
+    url: www.cieb.net.br/
+    
+  - parceiro: PENSA
+    logo: pensa.png
+    url: http://pensa.rio/main/pensa/
+  
