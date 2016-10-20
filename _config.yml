@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: "http://conferenciadesafiobrasil.com.br/"
+url: "http://www.conferenciadesafiobrasil.com.br/"
 title: Conferência Desafio Brasil
 email: labfgv@gmail.com
 author: Laboratório de Políticas Públicas da FGV
@@ -38,17 +38,16 @@ people:
   pic: 1.png
   minibio: Ministro da Educação
   mesa: educacao
-  gt: 0
+  gt: nao
   social:
     - title: file-text-o
       url: portal.mec.gov.br/gabinete-do-ministro
     - title: facebook
-      url: https://pt-br.facebook.com/mendoncafilhoPE/
-      
+      url: https://pt-br.facebook.com/mendoncafilhoPE/ 
 - name: Lígia Stocche Barbosa
   pic: ligia.png
   minibio: Engenheira de formação, mas ao longo da vida migrou para a educação. É fundadora e membro do conselho deliberativo do Movimento Mapa Educação e trabalha na Fundação Lemann.
-  gt: 0
+  gt: nao
   mesa: educacao
   social:
     - title: file-text-o
@@ -58,28 +57,21 @@ people:
 # ----------------------- #
 
 parceiros:
-
 - parceiro: Instituto República
   logo: republica.png
   url: http://www.institutorepublica.edu.ar/
-  
 - parceiro: Instituto Publix
   logo: publix.png
   url: http://www.institutopublix.com.br/
-  
 - parceiro: Mapa Educação
   logo: mapa.png
   url: http://www.mapaeducacao.com/
-  
 - parceiro: FGV Social
   logo: fgv-social.png
   url: http://cps.fgv.br/
-  
  - parceiro: CIEB
     logo: cieb.png
     url: www.cieb.net.br/
-    
   - parceiro: PENSA
     logo: pensa.png
     url: http://pensa.rio/main/pensa/
-  
