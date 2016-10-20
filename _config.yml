@@ -31,8 +31,81 @@ social:
   - title: envelope
     url: mailto:labfgv@gmail.com?subject=[contato] conferência desafio brasil
 
+
 # ----------------------- #
-#         members         #
+#          apoio          #
+# ----------------------- #
+
+parceiros:
+# url tem de ter http ou https antes, ou ele interpreta como subpágina do site
+
+#- parceiro: Instituto República
+#  logo: republica.png
+#  url: http://www.institutorepublica.edu.ar/
+  
+- parceiro: Instituto Publix
+  logo: publix.png
+  url: http://www.institutopublix.com.br/
+  
+- parceiro: Mapa Educação
+  logo: mapa.png
+  url: http://www.mapaeducacao.com/
+  
+- parceiro: FGV Social
+  logo: fgv-social.png
+  url: http://cps.fgv.br/
+  
+- parceiro: CIEB
+  logo: cieb.png
+  url: http://www.cieb.net.br/
+
+- parceiro: PENSA
+  logo: pensa.png
+  url: http://pensa.rio/main/pensa/
+
+- parceiro: Um Brasil
+  logo: umbrasil.png
+  url: http://www.umbrasil.com/
+
+- parceiro: Centro de Liderança Públicas
+  logo: clp.png
+  url: http://www.clp.org.br/
+  
+- parceiro: EBAPE/FGV-RJ
+  logo: ebape.png
+  url: http://ebape.fgv.br/
+
+- parceiro: EPGE/FGV-RJ
+  logo: epge.png
+  url: http://epge.fgv.br/
+  
+
+- parceiro: G.NOVA
+  logo: gnova.png
+  url: http://www.enap.gov.br/web/pt-br 
+
+- parceiro: Ipea
+  logo: ipea.png
+  url: http://www.ipea.gov.br/
+
+- parceiro: Movimento Brasil Competitivo
+  logo: mbc.png
+  url: http://www.mbc.org.br/mbc/novo/
+
+- parceiro: Fundação Lemann
+  logo: lemann.png
+  url: http://www.fundacaolemann.org.br/
+
+- parceiro: Sitiê
+  logo: sitie.png
+  url: http://www.parquesitie.org/
+
+- parceiro: Vetor Brasil
+  logo: vetorbr.png
+  url: http://www.vetorbrasil.com/
+
+# ----------------------- #
+#         people          #
 # ----------------------- #
 
 people:
@@ -151,74 +224,56 @@ people:
     - title: facebook
       url: https://www.facebook.com/enapgovbr/
 
-# ----------------------- #
-#          apoio          #
-# ----------------------- #
+- name: Lucia Dellagnelo
+  pic: Luciap2.jpg
+  minibio: Diretora Presidente do CIEB, é formada como Doutora e Mestre em Educação pela Universidade de Harvard. Foi Secretaria de Estado de Desenvolvimento Econômico Sustentável em Santa Catarina onde criou o Cluster de Inovação na Educação.
+  tema: educ
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/luciadellagnelo
+    
+- name: Renan Rego  
+  pic: Renan.jpg
+  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
+  tema: eco
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/renancostarego
 
-parceiros:
-# url tem de ter http ou https antes, ou ele interpreta como subpágina do site
+- name: Pedro Henrique de Cristo
+  pic: pedrocristo.jpeg  
+  minibio: Fundador e Diretor Executivo do Instituto Sitiê, Pedro direciona sua carreira de designer, pesquisador e empreendedor para a integração da arquitetura com a política e a tecnologia. É também um Lemann Fellow, membro RAPS e Bolsista da Fundação Estudar.
+  tema: educ
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/pedro-henrique-h-f-de-cristo-97b0a722
 
-#- parceiro: Instituto República
-#  logo: republica.png
-#  url: http://www.institutorepublica.edu.ar/
-  
-- parceiro: Instituto Publix
-  logo: publix.png
-  url: http://www.institutopublix.com.br/
-  
-- parceiro: Mapa Educação
-  logo: mapa.png
-  url: http://www.mapaeducacao.com/
-  
-- parceiro: FGV Social
-  logo: fgv-social.png
-  url: http://cps.fgv.br/
-  
-- parceiro: CIEB
-  logo: cieb.png
-  url: http://www.cieb.net.br/
-
-- parceiro: PENSA
-  logo: pensa.png
-  url: http://pensa.rio/main/pensa/
-
-- parceiro: Um Brasil
-  logo: umbrasil.png
-  url: http://www.umbrasil.com/
-
-- parceiro: Centro de Liderança Públicas
-  logo: clp.png
-  url: http://www.clp.org.br/
-  
-- parceiro: EBAPE/FGV-RJ
-  logo: ebape.png
-  url: http://ebape.fgv.br/
-
-- parceiro: EPGE/FGV-RJ
-  logo: epge.png
-  url: http://epge.fgv.br/
-  
-
-- parceiro: G.NOVA
-  logo: gnova.png
-  url: http://www.enap.gov.br/web/pt-br 
-
-- parceiro: Ipea
-  logo: ipea.png
-  url: http://www.ipea.gov.br/
-
-- parceiro: Movimento Brasil Competitivo
-  logo: mbc.png
-  url: http://www.mbc.org.br/mbc/novo/
-
-- parceiro: Fundação Lemann
-  logo: lemann.png
-  url: http://www.fundacaolemann.org.br/
-
-- parceiro: Sitiê
-  logo: sitie.png
-  url: http://www.parquesitie.org/
-
-- parceiro: Vetor Brasil
-  logo: vetorbr.png
-  url: http://www.vetorbrasil.com/
+- name: Pablo Cerdeira
+  pic: pablo_cerdeira.png
+  minibio: Responsável pelo PENSA – Sala de Ideias, órgão da Prefeitura do Rio de Janeiro. É advogado formado na USP, e também programador e cientista de dados. Foi Chefe de gabinete no Conselho Nacional de Justiça – CNJ e Subsecretário de Proteção e Defesa do Consumidor, na Cidade do Rio de Janeiro.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/pablocerdeira
+      
+- name: Humberto Martins
+  pic: humbertomartins.jpg
+  minibio: Diretor do Instituto Publix. Anteriormente, ocupou posições executivas no Ministério da Administração e Reforma do Estado e no Ministério do Planejamento, Orçamento e Gestão, onde foi Secretário de Gestão.
+  tema: gov
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/humberto-falc%C3%A3o-martins-ma-phd-eppgg-idp-pvn-20516014
+    
+- name: Michael Cerqueira
+  pic: michaelvetor.jpg
+  minibio: Líder de Relacionamento com Governo no Vetor Brasil, é graduado em Administração Pública pela Fundação Getulio Vargas.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/michael-cerqueira-5b330069
