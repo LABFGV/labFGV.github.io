@@ -1248,6 +1248,72 @@ ol ol {
     right: 0;
     margin: 0 0 15px;
 }
+
+#apoio .apoio-item .apoio-link .apoio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+}
+
+#apoio .apoio-item .apoio-link .apoio-hover:hover {
+    opacity: 1;
+}
+
+#apoio .apoio-item .apoio-link .apoio-hover .apoio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#apoio .apoio-item .apoio-link .apoio-hover .apoio-hover-content i {
+    margin-top: -12px;
+}
+
+#apoio .apoio-item .apoio-link .apoio-hover .apoio-hover-content h3,
+#apoio .apoio-item .apoio-link .apoio-hover .apoio-hover-content h4 {
+    margin: 0;
+}
+
+#apoio .apoio-item .apoio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#apoio .apoio-item .apoio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#apoio .apoio-item .apoio-caption p {
+    margin: 0;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 16px;
+    font-style: italic;
+}
+
+#apoio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #apoio .apoio-item {
+        margin: 0 0 30px;
+    }
+}
 #apoio .apoio-item .apoio-link {
     display: block;
     position: relative;
