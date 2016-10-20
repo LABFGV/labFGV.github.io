@@ -1,5 +1,24 @@
-    <!-- About Section -->
-    <section id="apoio" class="container content-section text-center">
+<section id="apoio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Apoio</h2>
+                </div>
+            </div>
+            <div class="row">
+            {% for parceiro in site.parceiros %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="{{ parceiro.url }}" class="portfolio-link" data-toggle="modal">
+                        <img src="img/logos/{{ parceiro.logo }}" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+</section>    
+
+<!-- About Section -->
+    <!--<section id="apoio" class="container content-section text-center">
         <div class="row">
             <div class="col-1-1">
               <hr class="sec-divider">
@@ -17,7 +36,7 @@
                             {% endfor %}
                  </div>
              </body>
-            <!--</div>
+            </div>
                 <body>
                    <div class="col-md-3 col-sm-6">
                        <a href="#">
@@ -34,10 +53,10 @@
                 </body>
                 <br><br/>
             <br>
-            <br> -->
+            <br>
             
                 </div>
             <hr class="sec-divider">
             <br>
         </div>
-    </section>
+    </section> -->
