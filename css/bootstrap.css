@@ -6311,4 +6311,14 @@ button.close {
 .team-member p {
     margin-top: 0;
 }
+
+.container-logo {
+    width:980px;
+    float:left;
+}
+.logo-box {
+    width:245px;
+    float:left;
+    height:150px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
