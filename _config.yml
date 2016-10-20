@@ -50,11 +50,13 @@ people:
   social:
     - title: file-text-o
       url: http://www.mapaeducacao.com/quemsomos.html
+
 # ----------------------- #
 #          apoio          #
 # ----------------------- #
 
 parceiros:
+# url tem de ter http ou https antes, ou ele interpreta como subpágina do site
 
 #- parceiro: Instituto República
 #  logo: republica.png
@@ -74,8 +76,49 @@ parceiros:
   
 - parceiro: CIEB
   logo: cieb.png
-  url: www.cieb.net.br/
+  url: http://www.cieb.net.br/
 
 - parceiro: PENSA
   logo: pensa.png
   url: http://pensa.rio/main/pensa/
+
+- parceiro: Um Brasil
+  logo: umbrasil.png
+  url: http://www.umbrasil.com/
+
+- parceiro: Centro de Liderança Públicas
+  logo: clp.png
+  url: http://www.clp.org.br/
+  
+- parceiro: EBAPE/FGV-RJ
+  logo: ebape.png
+  url: http://ebape.fgv.br/
+
+- parceiro: EPGE/FGV-RJ
+  logo: epge.png
+  url: http://epge.fgv.br/
+  
+
+- parceiro: G.NOVA
+  logo: gnova.png
+  #url: 
+
+- parceiro: Ipea
+  logo: ipea.png
+  url: http://www.ipea.gov.br/
+
+- parceiro: Movimento Brasil Competitivo
+  logo: mbc.png
+  url: http://www.mbc.org.br/mbc/novo/
+
+- parceiro: Fundação Lemann
+  logo: lemann.png
+  url: http://www.fundacaolemann.org.br/
+
+- parceiro: Sitiê
+  logo: sitie.png
+  url: http://www.parquesitie.org/
+
+- parceiro: Vetor Brasil
+  logo: vetorbr.png
+  url: http://www.vetorbrasil.com/
