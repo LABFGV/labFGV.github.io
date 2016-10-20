@@ -37,7 +37,9 @@ people:
 
 - name: José Mendonça Bezerra Filho
   pic: 1.png
-  minibio: Ministro da educação, deputado federal pelo DEM-PE.
+  minibio: Ministro da educação, deputado federal pelo DEM-PE
+  tema: educ
+  gt: educ
   social:
     - title: file-text-o
       url: portal.mec.gov.br/gabinete-do-ministro
@@ -47,9 +49,89 @@ people:
 - name: Lígia Stocche Barbosa
   pic: ligia.png
   minibio: Engenheira de formação, mas ao longo da vida migrou para a educação. É fundadora e membro do conselho deliberativo do Movimento Mapa Educação e trabalha na Fundação Lemann.
+  tema: educ
+  gt: nao
   social:
     - title: file-text-o
       url: http://www.mapaeducacao.com/quemsomos.html
+    
+- name: Cláudio Lucena 
+  pic: claudiol.jpg
+  minibio: Professor da Universidade Estadual da Paraíba.
+  social:
+    - title: facebook
+      url: https://www.facebook.com/claudio.lucena.3  
+    - title: twitter
+       url: https://twitter.com/claudiokilla
+    - title: linkedin
+      url: https://www.linkedin.com/in/cl%C3%A1udio-lucena-8227a822
+
+- name: Maximiliano Emilio Loures
+  pic: maximilianol.jpg  
+  minibio: Leading Intel's public policy initiatives in Brazil.
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/emilio-loures-2b7175
+
+- name: Maximiliano Salvadori Martinhão
+  pic: maximilianom.jpg
+  minibio: Secretário de Telecomunicações do Ministério das Comunicações.
+  social:
+    - title: facebook
+       url: https://www.facebook.com/maximiliano.martinhao
+    - title: linkedin
+      url: https://www.linkedin.com/in/maximiliano-s-martinh%C3%A3o-b1a1ab
+
+- name: Silvio Romero de Lemos Meira
+  pic: silviom.jpg
+  minibio: Professor emérito da Universidade Federal de Pernambuco e Professor da DIREITO RIO/FGV.
+  social:
+    - title: twitter
+       url: https://twitter.com/srlm
+    - title: linkedin
+      url: https://www.linkedin.com/in/silviomeira
+
+- name: Guilherme Lichand
+  pic: guilhermel.jpg
+  minibio: É co-fundador da MGov-Brasil, plataforma que provê ferramentas para gestores públicos baseadas na coleta de dados através de telefone celular.  
+  social:
+    - title: file-text-o
+       url: http://www.mgovbrasil.com.br/
+    - title: facebook
+      url: https://www.facebook.com/mgovbr/ 
+    - title: linkedin
+      url: https://www.linkedin.com/in/guilherme-lichand-b4aa0554
+
+- name: Gustavo Maia
+  pic: gustavom.jpg
+  minibio: É fundador do Colab, uma rede social para cidadania em que o usuário é capaz de fiscalizar, propor e avaliar diversos pontos da sua cidade, estado e país. 
+  social:
+    - title: file-text-o
+       url: http://www.colab.re/ 
+    - title: facebook
+      url: https://www.facebook.com/colab.re/
+    - title: linkedin
+      url: https://www.linkedin.com/in/gustavommaia/pt
+
+- name: Andrei Roman
+  pic: roman.jpg
+  minibio: É fundador do Atlas Político, uma ferramenta online largamente acessível para toda a população monitorar a atuação dos políticos brasileiros e se engajar em apoio àquelas iniciativas políticas e projetos de lei que considera importantes para o país.
+  social:
+    - title: file-text-o
+      url: http://www.atlaspolitico.com.br/ 
+    - title: facebook
+      url: https://www.facebook.com/atlaspolitico/
+    - title: linkedin
+      url: https://www.linkedin.com/in/andrei-roman-b1969a7 
+
+- name: Guilherme de Almeida
+  pic: guilhermea.jpg
+  minibio: É diretor de Inovação da Escola Nacional de Administração Pública (Enap).
+  social:
+    - title: file-text-o
+      url: http://www.enap.gov.br/web/pt-br 
+    - title: facebook
+      url: https://www.facebook.com/enapgovbr/ 
 
 # ----------------------- #
 #          apoio          #
@@ -101,7 +183,7 @@ parceiros:
 
 - parceiro: G.NOVA
   logo: gnova.png
-  #url: 
+  url: http://www.enap.gov.br/web/pt-br 
 
 - parceiro: Ipea
   logo: ipea.png
