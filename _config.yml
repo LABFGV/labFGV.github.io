@@ -35,17 +35,18 @@ social:
 
 people:
 - name: José Mendonça Bezerra Filho
-  pic: 1
-  position: Ministro da Educação
+  pic: 1.png
+  minibio: Ministro da Educação
   mesa: educacao
   gt: 0
   social:
     - title: o-file
+    url: portal.mec.gov.br/gabinete-do-ministro
     - title: facebook
       url: https://pt-br.facebook.com/mendoncafilhoPE/
       
 - name: Lígia Stocche Barbosa
-  pic: ligia
+  pic: ligia.png
   minibio: Engenheira de formação, mas ao longo da vida migrou para a educação. É fundadora e membro do conselho deliberativo do Movimento Mapa Educação e trabalha na Fundação Lemann.
   gt: 0
   mesa: educacao
