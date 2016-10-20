@@ -1203,6 +1203,9 @@ a.bg-primary:hover {
 .bg-success {
   background-color: #dff0d8;
 }
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
 a.bg-success:hover {
   background-color: #c1e2b3;
 }
@@ -1239,6 +1242,17 @@ ol ul,
 ul ol,
 ol ol {
   margin-bottom: 0;
+}
+
+#apoio .apoio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+#apoio .apoio-item .apoio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
 }
 .list-unstyled {
   padding-left: 0;
