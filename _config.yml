@@ -78,7 +78,6 @@ parceiros:
 - parceiro: EPGE/FGV-RJ
   logo: epge.png
   url: http://epge.fgv.br/
-  
 
 - parceiro: G.NOVA
   logo: gnova.png
@@ -104,6 +103,7 @@ parceiros:
   logo: vetorbr.png
   url: http://www.vetorbrasil.com/
 
+
 # ----------------------- #
 #         people          #
 # ----------------------- #
@@ -111,7 +111,7 @@ parceiros:
 people:
 
 - name: José Mendonça Bezerra Filho
-  pic: 1.png
+  pic: mendonca.png
   minibio: Ministro da educação, deputado federal pelo DEM-PE.
   tema: educ
   palestra: s
@@ -136,10 +136,6 @@ people:
   tema: eco
   palestra: s
   social:
-    - title: facebook
-      url: https://www.facebook.com/claudio.lucena.3  
-    - title: twitter
-      url: https://twitter.com/claudiokilla
     - title: linkedin
       url: https://www.linkedin.com/in/cl%C3%A1udio-lucena-8227a822
 
@@ -153,13 +149,11 @@ people:
       url: https://www.linkedin.com/in/emilio-loures-2b7175
 
 - name: Maximiliano Salvadori Martinhão
-  pic: maximilianom.jpg
+  pic: maximilianom.png
   minibio: Secretário de Telecomunicações do Ministério das Comunicações.
   tema: eco
   palestra: s
   social:
-    - title: facebook
-      url: https://www.facebook.com/maximiliano.martinhao
     - title: linkedin
       url: https://www.linkedin.com/in/maximiliano-s-martinh%C3%A3o-b1a1ab
 
@@ -169,8 +163,6 @@ people:
   tema: eco
   palestra: s
   social:
-    - title: twitter
-      url: https://twitter.com/srlm
     - title: linkedin
       url: https://www.linkedin.com/in/silviomeira
 
@@ -201,7 +193,7 @@ people:
       url: https://www.linkedin.com/in/gustavommaia/pt
 
 - name: Andrei Roman
-  pic: roman.jpg
+  pic: roman.png
   minibio: É fundador do Atlas Político, uma ferramenta online largamente acessível para toda a população monitorar a atuação dos políticos brasileiros e se engajar em apoio àquelas iniciativas políticas e projetos de lei que considera importantes para o país.
   tema: gov
   palestra: s
