@@ -265,7 +265,7 @@ p.copyright {
 }
 
 .btn-inscr {
-  background: #3498db;
+  background: #1a97cc;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
@@ -282,7 +282,7 @@ p.copyright {
 }
 
 .btn-inscr:hover {
-  background: #3cb0fd;
+  background: #1a97dd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
