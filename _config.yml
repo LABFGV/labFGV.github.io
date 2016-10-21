@@ -132,16 +132,18 @@ people:
     
 - name: Cláudio Lucena 
   pic: claudiol.jpg
-  minibio: Professor da Universidade Estadual da Paraíba.
+  minibio: Pesquisador da Fundação para a Ciência e a Tecnologia de Portugal, junto ao Research Center for the Future of Law, Católica Global School of Law, Universidade Católica Portuguesa. Membro da Comunidade Octopus Cybercrime do Conselho da Europa, dos Capítulos Brasil e Portugal da Internet Societ, da International Law Association e do Comitê Internacional de Estudos sobre a Privacidade. 
   tema: eco
   palestra: s
   social:
+    - title: file-text-o
+      url: http://www.claudiolucena.com/
     - title: linkedin
       url: https://www.linkedin.com/in/cl%C3%A1udio-lucena-8227a822
 
 - name: Emilio Loures
   pic: maximilianol.jpg  
-  minibio: Leading Intel's public policy initiatives in Brazil.
+  minibio: Diretor de Assuntos Corporativos da Intel do Brasil. Foi gerente de planejamento e desenvolvimento de negócios da AG Telecom, sócio diretor da Miner Technology Group e consultor da Monitor/MGDK e Companhia Vale do Rio Doce.
   tema: eco
   palestra: s
   social:
@@ -150,7 +152,7 @@ people:
 
 - name: Maximiliano Salvadori Martinhão
   pic: maximilianom.png
-  minibio: Secretário de Telecomunicações do Ministério das Comunicações.
+  minibio: Secretário de Política de Informática do Ministério da Ciência, Tecnologia, Inovações e Comunicações em Campinas. Já foi Secretário de Telecomunicações no Ministério das Comunicações e Gerente Geral de Certificação e Engenharia do Espectro da ANATEL, tendo ocupado outras posições Gerenciais e de Assessoria na Agência. Atuou também como Engenheiro de Planejamento do Sistema TELEBRÁS.
   tema: eco
   palestra: s
   social:
@@ -159,7 +161,7 @@ people:
 
 - name: Silvio Meira
   pic: silviom.jpg
-  minibio: Professor emérito da Universidade Federal de Pernambuco e Professor da DIREITO RIO/FGV.
+  minibio: Idealizador e fundador do C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife), Silvio Meira é professor emérito da Universidade Federal de Pernambuco e professor da DIREITO RIO/FGV. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do primeiro comitê gestor da Internet/br. Foi também presidente da Sociedade Brasileira de Computação e um dos três cientistas que criaram o engenho de busca Radix.com e um dos arquitetos da Newstorm.com.
   tema: eco
   palestra: s
   social:
