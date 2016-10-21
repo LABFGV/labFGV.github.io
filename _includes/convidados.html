@@ -8,29 +8,37 @@
                 </div>
             </div>
             <div class="row">
-			<h3 class="section-subheading text-muted" align="center"> Governo Digital </h3>
-			<br>
+		<h3 class="section-subheading text-muted" align="center"> 
+			Governo Digital
+		</h3>
+		<br>
                 {% for person in site.people %}
-					{% if person.tema == "gov" %}
-						<div class="col-lg-2 col-md-4 col-xs-6">
-							<div class="team-member">
-								<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
-								<h4>{{ person.name }}</h4>
-								<p class="text-muted">{{ person.minibio }}</p>
-								<ul class="list-inline social-buttons">
-									{% for network in person.social %}
-									<li>
-										<a href="{{ network.url }}">
-											<i class="fa fa-{{ network.title }}"></i>
-										</a>
-									</li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-
-					{% endif %}
+			{% if person.tema == "gov" %}
+				<div class="col-lg-2 col-md-4 col-xs-6">
+					<div class="team-member">
+						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
+						<h4>{{ person.name }}</h4>
+						<p class="text-muted">{{ person.minibio }}</p>
+						<ul class="list-inline social-buttons">
+						{% if person.palestra == "s" %}
+							<li>
+								<img width="15px" src="img/pilares/i-painel.png" alt="painel">
+							</li>
+						{% endif %}
+							<li>
+								<img width="15px" src="img/pilares/i-gt.png" alt="grupo de trabalho">
+							</li>
+						{% for network in person.social %}
+							<li>
+								<a href="{{ network.url }}">
+									<i class="fa fa-{{ network.title }}"></i>
+								</a>
+							</li>
+                            			{% endfor %}
+			                        </ul>
+                    			</div>
+                		</div>
+			{% endif %}
                 {% endfor %}
             </div>
 			<div class="row">
