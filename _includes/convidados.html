@@ -12,7 +12,7 @@
 			Governo Digital
 		</h3>
 		<br>
-                {% for person in site.people limit:4 %}
+                {% for person in site.people limit:3 %}
 			{% if person.tema == "gov" %}
 				<div class="col-lg-3 col-md-4 col-xs-6"> <!-- col-lg-2 col-md-4 col-xs-6 -->
 					<div class="team-member">
@@ -41,7 +41,7 @@
 			{% endif %}
                 {% endfor %}
 		<br>
-                {% for person in site.people offset:5 %}
+                {% for person in site.people offset:4 %}
 			{% if person.tema == "gov" %}
 				<div class="col-lg-3 col-md-4 col-xs-6"> <!-- col-lg-2 col-md-4 col-xs-6 -->
 					<div class="team-member">
