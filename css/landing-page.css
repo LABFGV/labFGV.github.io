@@ -40,16 +40,6 @@ h6 {
 		background: url(../img/desafio-large.png) no-repeat center center;
 		background-size: contain;
 	}
-	
-.quando-onde {
-    max-width: 450px;
-}
-
-@media (max-width: 450px) {
-	.quando-onde{
-		width:100%;
-	}
-}
 
 .sec-divider {
     width: 400px;
