@@ -187,9 +187,9 @@ p.copyright {
     float:left;
 }
 .logo-box {
-    width:245px;
-    float:left;
-    height:150px;
+    max-width:245px;
+    float:center;
+    max-height:150px;
 }
 #apoio .apoio-item {
     right: 0;
