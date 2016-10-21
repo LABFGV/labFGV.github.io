@@ -12,7 +12,6 @@
 			<br>
                 {% for person in site.people %}
 					{% if person.tema == "gov" %}
-						{% if person.palestra == "s" %}
 						<div class="col-sm-2">
 							<div class="team-member">
 								<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
@@ -30,7 +29,7 @@
                         </ul>
                     </div>
                 </div>
-						{% endif %}
+
 					{% endif %}
                 {% endfor %}
             </div>
@@ -39,7 +38,6 @@
 			<br>
                 {% for person in site.people %}
 					{% if person.tema == "educ" %}
-						{% if person.palestra == "s" %}
 						<div class="col-sm-2">
 							<div class="team-member">
 								<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
@@ -57,7 +55,6 @@
                         </ul>
                     </div>
                 </div>
-						{% endif %}
 					{% endif %}
                 {% endfor %}
             </div>
@@ -66,7 +63,6 @@
 			<br>
                 {% for person in site.people %}
 					{% if person.tema == "eco" %}
-						{% if person.palestra == "s" %}
 						<div class="col-sm-2">
 							<div class="team-member">
 								<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
@@ -84,7 +80,6 @@
                         </ul>
                     </div>
                 </div>
-						{% endif %}
 					{% endif %}
                 {% endfor %}
             </div>
