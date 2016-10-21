@@ -940,15 +940,7 @@ figure {
 img {
   vertical-align: middle;
 }
-.img-responsive,
-.thumbnail > img,
-.thumbnail a > img,
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  display: block;
-  
-  height: 40px;
-}
+
 .img-rounded {
   border-radius: 6px;
 }
