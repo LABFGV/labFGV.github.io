@@ -6365,4 +6365,18 @@ button.close {
         float: left;
     }
 }
+.col-md-12-cen {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .col-md-12-cen {
+    float: none;
+  }
+  .col-md-12-cen {
+    max-width: 600px;
+  }
+}
 /*# sourceMappingURL=bootstrap.css.map */
