@@ -15,7 +15,7 @@
 		<br>
                 {% for person in site.people limit:3 %}
 			{% if person.tema == "gov" %}
-				<div class="col-lg-5ths col-md-4 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
+				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
 					<div class="team-member">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
@@ -44,7 +44,7 @@
 		<br>
                 {% for person in site.people offset:4 %}
 			{% if person.tema == "gov" %}
-				<div class="col-lg-5ths col-md-4 col-xs-12"> <!-- col-lg-2 col-md-4 col-xs-6 -->
+				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- col-lg-2 col-md-4 col-xs-6 -->
 					<div class="team-member">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
@@ -79,7 +79,7 @@
 		<br>
                 {% for person in site.people %}
 			{% if person.tema == "educ" %}
-				<div class="col-lg-5ths col-md-4 col-xs-12"> <!-- col-lg-3 col-md-4 col-xs-6 -->
+				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- col-lg-3 col-md-4 col-xs-6 -->
 					<div class="team-member">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 							<h4>{{ person.name }}</h4>
@@ -114,7 +114,7 @@
 		<br>
                 {% for person in site.people %}
 			{% if person.tema == "eco" %}
-				<div class="col-lg-5ths col-md-4 col-xs-12"> <!--col-lg-2 col-md-4 col-xs-6 -->
+				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!--col-lg-2 col-md-4 col-xs-6 -->
 					<div class="team-member">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
