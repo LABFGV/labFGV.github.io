@@ -6371,10 +6371,10 @@ button.close {
   padding-right: 15px;
   padding-left: 15px;
   width:50%;
+  float:none;
 }
-@media (min-width: 560px) {
+@media (max-width: 560px) {
   .col-md-12-cen {
-    float: none;
     width:100%;
   }
 }
