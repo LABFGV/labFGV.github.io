@@ -5,19 +5,27 @@
             <div class="col-md-8">
                 <ul class="list-inline">
                     <li>
-                        <a href="#home">home</a>
+                        <a class="page-scroll" href="#home">home</a>
                     </li>                  
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#sobre">sobre</a>
+                        <a class="page-scroll" href="#sobre">sobre</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#convidados">convidados</a>
+                        <a class="page-scroll" href="#pilares">pilares</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#parceiros">parceiros</a>
+                        <a class="page-scroll" href="#divisao">momentos</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a class="page-scroll" href="#convidados">convidados</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a class="page-scroll" href="#parceiros">parceiros</a>
                     </li>
                     <!--<li class="footer-menu-divider">&sdot;</li>
                     <li>
@@ -25,22 +33,25 @@
                     </li>-->                  
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#contato">contato</a>
+                        <a class="page-scroll" href="#contato">contato</a>
                     </li>
                 </ul>
                 <p class="copyright text-muted small">{{ site.copyright }}</p>
             </div>
             <div class="col-md-4">
                     <ul class="list-inline social-buttons">
+                        <li>
+                            <h5> fale conosco:</h5>
+                        </li>
                         {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
                     </ul>
                 </div>
-            <div class="col-md-4">
+            <!--<div class="col-md-4">
                 {{ site.credits }}
-            </div>
+            </div>-->
         </div>
     </div>
 </footer>
