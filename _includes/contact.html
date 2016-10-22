@@ -1,4 +1,14 @@
 <section id="contato">
+	<div class="container">
+		<div class="row">
+			<hr class="section-heading-spacer">
+			{% for network in site.social %}
+			<div class="col-md-4">
+                        <a href="{{ network.url }}" target="_blank"> <button class="btn-inscr-g"><i class="fa fa-{{ network.title }}"></i> {{ network.title }} </button></a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
 	<!--<div class="banner">
 		<div class="container">
 
