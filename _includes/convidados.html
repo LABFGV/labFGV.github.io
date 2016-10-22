@@ -15,7 +15,7 @@
                 {% for person in site.people limit:3 %}
 			{% if person.tema == "gov" %}
 				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
-					<div class="team-member">
+					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
 						<p class="text-muted">{{ person.minibio }}</p>
@@ -44,7 +44,7 @@
                 {% for person in site.people offset:4 %}
 			{% if person.tema == "gov" %}
 				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12 text-center"> <!-- col-lg-2 col-md-4 col-xs-6 -->
-					<div class="team-member">
+					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
 						<p class="text-muted">{{ person.minibio }}</p>
