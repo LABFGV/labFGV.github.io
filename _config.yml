@@ -1,8 +1,8 @@
-# ----------------------- #
+﻿# ----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
-url: labfgvt.github.io
+url: labfgv.github.io
 title: Conferência Desafio Brasil
 email: labfgv@gmail.com
 author: Laboratório de Políticas Públicas da FGV
@@ -112,7 +112,7 @@ people:
 
 - name: José Mendonça Bezerra Filho
   pic: mendonca.png
-  minibio: Ministro da educação, deputado federal pelo DEM-PE.
+  minibio: Atual Ministro da Educação, começou a vida pública aos vinte anos. Em sua carreira também foi governador e vice-governador de Pernambuco, deputado estadual e federal, e secretário de Estado de Pernambuco.
   tema: educ
   palestra: s
   social:
@@ -120,6 +120,24 @@ people:
       url: portal.mec.gov.br/gabinete-do-ministro
     - title: facebook
       url: https://pt-br.facebook.com/mendoncafilhoPE/ 
+      
+- name: Lucia Dellagnelo
+  pic: Luciap2.png
+  minibio: Diretora Presidente do CIEB, é formada como Doutora e Mestre em Educação pela Universidade de Harvard. Foi Secretaria de Estado de Desenvolvimento Econômico Sustentável em Santa Catarina onde criou o Cluster de Inovação na Educação.
+  tema: educ
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/luciadellagnelo
+
+- name: Pedro Henrique de Cristo
+  pic: pedrocristo.png  
+  minibio: Fundador e Diretor Executivo do Instituto Sitiê, Pedro direciona sua carreira de designer, pesquisador e empreendedor para a integração da arquitetura com a política e a tecnologia. É também um Lemann Fellow, membro RAPS e Bolsista da Fundação Estudar.
+  tema: educ
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/pedro-henrique-h-f-de-cristo-97b0a722
       
 - name: Lígia Stocche
   pic: ligia.png
@@ -129,7 +147,7 @@ people:
   social:
     - title: file-text-o
       url: http://www.mapaeducacao.com/quemsomos.html
-    
+      
 - name: Cláudio Lucena 
   pic: claudiol.jpg
   minibio: Pesquisador da Fundação para a Ciência e a Tecnologia de Portugal. Membro da Comunidade Octopus Cybercrime do Conselho da Europa, dos Capítulos Brasil e Portugal da Internet Societ, da International Law Association e do Comitê Internacional de Estudos sobre a Privacidade.
@@ -167,6 +185,15 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/silviomeira
+      
+- name: Renan Rego  
+  pic: Renan.jpg
+  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
+  tema: eco
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/renancostarego
 
 - name: Guilherme Lichand
   pic: guilhermel.jpg
@@ -206,6 +233,15 @@ people:
       url: https://www.facebook.com/atlaspolitico/
     - title: linkedin
       url: https://www.linkedin.com/in/andrei-roman-b1969a7 
+      
+- name: Humberto Martins
+  pic: humbertomartins.png
+  minibio: Diretor do Instituto Publix. Anteriormente, ocupou posições executivas no Ministério da Administração e Reforma do Estado e no Ministério do Planejamento, Orçamento e Gestão, onde foi Secretário de Gestão.
+  tema: gov
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/humberto-falc%C3%A3o-martins-ma-phd-eppgg-idp-pvn-20516014
 
 - name: Guilherme de Almeida
   pic: guilhermea.png
@@ -218,33 +254,6 @@ people:
     - title: facebook
       url: https://www.facebook.com/enapgovbr/
 
-- name: Lucia Dellagnelo
-  pic: Luciap2.png
-  minibio: Diretora Presidente do CIEB, é formada como Doutora e Mestre em Educação pela Universidade de Harvard. Foi Secretaria de Estado de Desenvolvimento Econômico Sustentável em Santa Catarina onde criou o Cluster de Inovação na Educação.
-  tema: educ
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/luciadellagnelo
-    
-- name: Renan Rego  
-  pic: Renan.jpg
-  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
-  tema: eco
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/renancostarego
-
-- name: Pedro Henrique de Cristo
-  pic: pedrocristo.png  
-  minibio: Fundador e Diretor Executivo do Instituto Sitiê, Pedro direciona sua carreira de designer, pesquisador e empreendedor para a integração da arquitetura com a política e a tecnologia. É também um Lemann Fellow, membro RAPS e Bolsista da Fundação Estudar.
-  tema: educ
-  palestra: n
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/pedro-henrique-h-f-de-cristo-97b0a722
-
 - name: Pablo Cerdeira
   pic: pablo_cerdeira.png
   minibio: Responsável pelo PENSA – Sala de Ideias, órgão da Prefeitura do Rio de Janeiro. É advogado formado na USP, e também programador e cientista de dados. Foi Chefe de gabinete no Conselho Nacional de Justiça – CNJ e Subsecretário de Proteção e Defesa do Consumidor, na Cidade do Rio de Janeiro.
@@ -254,15 +263,6 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/pablocerdeira
       
-- name: Humberto Martins
-  pic: humbertomartins.png
-  minibio: Diretor do Instituto Publix. Anteriormente, ocupou posições executivas no Ministério da Administração e Reforma do Estado e no Ministério do Planejamento, Orçamento e Gestão, onde foi Secretário de Gestão.
-  tema: gov
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/humberto-falc%C3%A3o-martins-ma-phd-eppgg-idp-pvn-20516014
-    
 - name: Michael Cerqueira
   pic: michaelvetor.png
   minibio: Líder de Relacionamento com Governo no Vetor Brasil, é graduado em Administração Pública pela Fundação Getulio Vargas.
