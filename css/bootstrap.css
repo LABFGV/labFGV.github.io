@@ -6386,7 +6386,7 @@ button.close {
 .carousel-inner > .item > a > img {
   display: block;
   width: 100% \9;
-  max-width: 100%;
+  max-width: 550px;
   height: auto;
 }
 /*# sourceMappingURL=bootstrap.css.map */
