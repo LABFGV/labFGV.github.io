@@ -11,7 +11,7 @@ Esta será a primeira edição de uma conferência que buscará, anualmente, pro
 ___
 
 <div class="col-md-12">
-  <a href="http://www.fgv.br/eventos/?P_EVENTO=2990&P_IDIOMA=0">
+  <a href="http://www.fgv.br/eventos/?P_EVENTO=2990&P_IDIOMA=0" target="_blank">
     <button class="btn-inscr-b">Inscreva-se aqui</button>
   </a>
 </div>
