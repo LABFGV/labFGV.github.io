@@ -8,7 +8,7 @@ description: |
 
 Esta será a primeira edição de uma conferência que buscará, anualmente, propor debates sobre as principais agendas do Desenvolvimento do Brasil. 
 
-A edição de 2016 da Conferência Desafio Brasil é organizada pelo [Laboratório de Políticas Públicas da FGV (Lab FGV)](http://www.labfgv.com) e pelo [Centro de Tecnologia e Sociedade da DIREITO RIO/FGV](http://direitorio.fgv.br/cts).
+A edição de 2016 da Conferência Desafio Brasil é organizada pelo <a href="http://www.labfgv.com" target="_blank">Laboratório de Políticas Públicas da FGV (Lab FGV)</a> e pelo <a href="http://direitorio.fgv.br/cts" target="_blank">Centro de Tecnologia e Sociedade da DIREITO RIO/FGV</a>.
 
 ___
 
