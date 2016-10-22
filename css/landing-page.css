@@ -144,13 +144,13 @@ h6 {
 	margin:50px 50px 50px 50px;
     margin-top: 0;
 }
-
+/*
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
-}
+}*/
 
 @media(max-width:767px) {
     .banner h2 {
