@@ -6379,4 +6379,14 @@ button.close {
     max-width: 600px;
   }
 }
+.img-responsive-cen,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
 /*# sourceMappingURL=bootstrap.css.map */
