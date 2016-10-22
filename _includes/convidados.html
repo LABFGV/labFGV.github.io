@@ -22,15 +22,15 @@
 						<ul class="list-inline social-buttons">
 						{% if person.palestra == "s" %}
 							<li>
-								<a class="page-scroll" href="#pilares"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
 							</li>
 						{% endif %}
 							<li>
-								<a class="page-scroll" href="#pilares"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
 							</li>
 						{% for network in person.social %}
 							<li>
-								<a href="{{ network.url }}">
+								<a href="{{ network.url }}" target="_blank">
 									<i class="fa fa-{{ network.title }}"></i>
 								</a>
 							</li>
@@ -51,15 +51,15 @@
 						<ul class="list-inline social-buttons">
 						{% if person.palestra == "s" %}
 							<li>
-								<a class="page-scroll" href="#pilares"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
 							</li>
 						{% endif %}
 							<li>
-								<a class="page-scroll" href="#pilares"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
 							</li>
 						{% for network in person.social %}
 							<li>
-								<a href="{{ network.url }}">
+								<a href="{{ network.url }}" target="_blank">
 									<i class="fa fa-{{ network.title }}"></i>
 								</a>
 							</li>
@@ -86,15 +86,15 @@
 							<ul class="list-inline social-buttons">
 								{% if person.palestra == "s" %}
 								<li>
-									<a class="page-scroll" href="#pilares"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
+									<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
 								</li>
 								{% endif %}
 								<li>
-									<a class="page-scroll" href="#pilares"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+									<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
 								</li>
 							{% for network in person.social %}
 								<li>
-									<a href="{{ network.url }}">
+									<a href="{{ network.url }}" target="_blank">
 										<i class="fa fa-{{ network.title }}"></i>
 									</a>
 								</li>
@@ -121,15 +121,15 @@
 						<ul class="list-inline social-buttons">
 						{% if person.palestra == "s" %}
 							<li>
-								<a class="page-scroll" href="#pilares"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
 							</li>
 						{% endif %}
 							<li>
-								<a class="page-scroll" href="#pilares"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
 							</li>
 						{% for network in person.social %}
 							<li>
-								<a href="{{ network.url }}">
+								<a href="{{ network.url }}" target="_blank">
 								<i class="fa fa-{{ network.title }}"></i>
 								</a>
 							</li>
@@ -165,7 +165,7 @@
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li>
-                                <a href="{{ network.url }}">
+                                <a href="{{ network.url }}" target="_blank">
                                     <i class="fa fa-{{ network.title }}"></i>
                                 </a>
                             </li>
