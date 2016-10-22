@@ -6370,13 +6370,12 @@ button.close {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  width:50%;
 }
-@media (min-width: 992px) {
+@media (min-width: 560px) {
   .col-md-12-cen {
     float: none;
-  }
-  .col-md-12-cen {
-    max-width: 600px;
+    width:100%;
   }
 }
 .img-responsive-cen,
