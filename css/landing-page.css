@@ -318,3 +318,6 @@ p.copyright {
   background-image: linear-gradient(to bottom, #1a97de, #1a97ee);
   text-decoration: none;
 }
+.img-quando {
+  max-width:550px;
+}
