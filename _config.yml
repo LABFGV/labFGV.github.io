@@ -159,14 +159,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/cl%C3%A1udio-lucena-8227a822
 
-- name: Emilio Loures
-  pic: maximilianol.jpg  
-  minibio: Diretor de Assuntos Corporativos da Intel do Brasil. Foi gerente de planejamento e desenvolvimento de negócios da AG Telecom, sócio diretor da Miner Technology Group e consultor da Monitor/MGDK e Companhia Vale do Rio Doce.
-  tema: eco
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/emilio-loures-2b7175
+#- name: Emilio Loures
+#  pic: maximilianol.jpg  
+#  minibio: Diretor de Assuntos Corporativos da Intel do Brasil. Foi gerente de planejamento e desenvolvimento de negócios da AG Telecom, sócio diretor da Miner Technology Group e consultor da Monitor/MGDK e Companhia Vale do Rio Doce.
+#  tema: eco
+#  palestra: s
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/emilio-loures-2b7175
 
 - name: Maximiliano Salvadori Martinhão
   pic: maximilianom.png
@@ -186,14 +186,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/silviomeira
       
-- name: Renan Rego  
-  pic: Renan.jpg
-  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
-  tema: eco
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/renancostarego
+#- name: Renan Rego  
+#  pic: Renan.jpg
+#  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
+#  tema: eco
+#  palestra: s
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/renancostarego
 
 - name: Guilherme Lichand
   pic: guilhermel.jpg
