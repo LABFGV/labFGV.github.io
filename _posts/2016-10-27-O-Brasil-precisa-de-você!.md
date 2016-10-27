@@ -17,7 +17,7 @@ ___
 <div class="row">
   <div class="col-md-6">
     <a href="material/edital.pdf" target="_blank">
-      <button class="btn-inscr-b">Edital</button>
+      <button class="btn-inscr-b" style="width:148px">Edital</button>
     </a>
   </div>
   <div class="col-md-6">
