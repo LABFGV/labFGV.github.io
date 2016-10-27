@@ -2,7 +2,7 @@
 layout: default
 category: conferencia
 img: embaixadores.png
-title: ! 'O Brasil precisa de você!'
+title: Programa de Bolsas
 description: |
 ---
 
