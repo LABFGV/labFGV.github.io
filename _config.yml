@@ -243,16 +243,18 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/humberto-falc%C3%A3o-martins-ma-phd-eppgg-idp-pvn-20516014
 
-- name: Danny Buerkli
-  pic: Danny-Buerkli.jpg
-  minibio: Diretor de Programa do Centre for Public Impact (CPI), Danny tem interesse particular no uso de evidências na formulação de políticas e na governança "algorítmica", bem como em sua regulação. Anteriormente, foi consultor de estratégia no The Boston Consulting Group em Berlim, onde trabalhou em questões relacionadas a inovação digital.
+- name: Adrian Brown
+  pic: adrianb.jpg
+  minibio: Adrian tem mais de 15 anos de experiência trabalhando com performance e transformação governamental, tanto no Reino Unido quanto internacionalmente. Ele já ocupou uma série de posições no governo britânico, incluindo períodos na Delivery Unit do Gabinete do Primeiro Ministro. Adrian também é um associado do Institute for Government, onde liderou pesquisas sobre a reforma do serviço público.
   tema: gov
   palestra: s
   social:
     - title: file-text-o
-      url: http://centreforpublicimpact.org/author/buerklidanny/
+      url: http://centreforpublicimpact.org/author/adrianbrown/
     - title: twitter
-      url: https://twitter.com/dannybuerkli
+      url: https://twitter.com/_adrianbrown
+    - title: linkedin
+      url: https://uk.linkedin.com/in/adrian-brown-3246711
 
 - name: Guilherme de Almeida
   pic: guilhermea.png
