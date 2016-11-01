@@ -1,4 +1,9 @@
-# Landing Page Jekyll theme
+site da Conferência Desafio Brasil, organizada pelo Laboratório de Políticas Públicas da FGV e pelo Centro de Tecnologia e Sociedade da FGV Direito RIO.
+
+créditos abaixo:
+
+
+## Landing Page Jekyll theme
 
 Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
