@@ -11,7 +11,7 @@ description: > # "Write an awesome description for your new site here.
 copyright: 'Copyright &copy; 2016 <a href="http://www.labfgv.com/">Lab FGV</a>. thanks to landing page by <a href="http://startbootstrap.com/">Start Bootstrap</a>; <a href="https://pages.github.com/">GitHub Pages</a>; <a href="https://jekyllrb.com/">Jekyll</a>.'
 credits: 'Créditos: Landing Page by <a href="http://startbootstrap.com/">Start Bootstrap</a>; <a href="https://pages.github.com/">GitHub Pages</a>; <a href="https://jekyllrb.com/">Jekyll</a>.'
 # google services
-google_analytics: UA-86693963-2
+google_analytics: UA-86693963-1
 
 # ----------------------- #
 #    Jekyll & Plugins     #
