@@ -187,6 +187,15 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/silviomeira
+
+- name: João Alberto De Negri 
+  pic: joao-de-negri.png
+  minibio: Pesquisador e Diretor do IPEA, João de Negri já foi Vice-Presidente do instituto de 2005 a 2007. Foi também Secretário Executivo do Ministério da Ciência, Tecnologia e Inovação (MCTI) em 2014. Ainda, foi membro da Diretoria Executiva e Diretor de Inovação da FINEP. 
+  tema: eco
+  palestra: s
+  social:
+    - title: file-text-o
+      url: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782321Y8
       
 #- name: Renan Rego  
 #  pic: Renan.jpg
