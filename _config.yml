@@ -33,79 +33,6 @@ social:
   - title: envelope
     url: mailto:labfgv@gmail.com?subject=[contato] conferência desafio brasil
 
-
-# ----------------------- #
-#          apoio          #
-# ----------------------- #
-
-parceiros:
-# url tem de ter http ou https antes, ou ele interpreta como subpágina do site
-
-#- parceiro: Instituto República
-#  logo: republica.png
-#  url: http://www.institutorepublica.edu.ar/
-  
-- parceiro: Instituto Publix
-  logo: publix.png
-  url: http://www.institutopublix.com.br/
-  
-- parceiro: Mapa Educação
-  logo: mapa.png
-  url: http://www.mapaeducacao.com/
-  
-- parceiro: FGV Social
-  logo: fgv-social.png
-  url: http://cps.fgv.br/
-  
-- parceiro: CIEB
-  logo: cieb.png
-  url: http://www.cieb.net.br/
-
-- parceiro: PENSA
-  logo: pensa.png
-  url: http://pensa.rio/main/pensa/
-
-- parceiro: Um Brasil
-  logo: umbrasil.png
-  url: http://www.umbrasil.com/
-
-- parceiro: Centro de Liderança Públicas
-  logo: clp.png
-  url: http://www.clp.org.br/
-  
-- parceiro: EBAPE/FGV-RJ
-  logo: ebape.png
-  url: http://ebape.fgv.br/
-
-- parceiro: EPGE/FGV-RJ
-  logo: epge.png
-  url: http://epge.fgv.br/
-
-- parceiro: G.NOVA
-  logo: gnova.png
-  url: http://www.enap.gov.br/web/pt-br 
-
-- parceiro: Ipea
-  logo: ipea.png
-  url: http://www.ipea.gov.br/
-
-- parceiro: Movimento Brasil Competitivo
-  logo: mbc.png
-  url: http://www.mbc.org.br/mbc/novo/
-
-- parceiro: Fundação Lemann
-  logo: lemann.png
-  url: http://www.fundacaolemann.org.br/
-
-- parceiro: Sitiê
-  logo: sitie.png
-  url: http://www.parquesitie.org/
-
-- parceiro: Vetor Brasil
-  logo: vetorbr.png
-  url: http://www.vetorbrasil.com/
-
-
 # ----------------------- #
 #         people          #
 # ----------------------- #
@@ -172,7 +99,7 @@ people:
 
 - name: Maximiliano Salvadori Martinhão
   pic: maximilianom.png
-  minibio: Secretário de Política de Informática do Ministério da Ciência, Tecnologia, Inovações e Comunicações em Campinas. Já foi Secretário de Telecomunicações no Ministério das Comunicações e Gerente Geral de Certificação e Engenharia do Espectro da ANATEL. 
+  minibio: Secretário de Política de Informática (Sepin) do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTI). Já foi Secretário de Telecomunicações no Ministério das Comunicações e Gerente Geral de Certificação e Engenharia do Espectro da ANATEL. 
   tema: eco
   palestra: s
   social:
