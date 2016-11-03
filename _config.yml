@@ -1,4 +1,4 @@
-﻿# ----------------------- #
+# ----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
@@ -206,19 +206,6 @@ people:
 #    - title: linkedin
 #      url: https://www.linkedin.com/in/renancostarego
 
-- name: Guilherme Lichand
-  pic: guilhermel.jpg
-  minibio: É co-fundador da MGov-Brasil, plataforma que provê ferramentas para gestores públicos baseadas na coleta de dados através de telefone celular.
-  tema: gov
-  palestra: s
-  social:
-    - title: file-text-o
-      url: http://www.mgovbrasil.com.br/
-    - title: facebook
-      url: https://www.facebook.com/mgovbr/ 
-    - title: linkedin
-      url: https://www.linkedin.com/in/guilherme-lichand-b4aa0554
-
 - name: Gustavo Maia
   pic: gustavom.jpg
   minibio: É fundador do Colab, uma rede social para cidadania em que o usuário é capaz de fiscalizar, propor e avaliar diversos pontos da sua cidade, estado e país.
@@ -266,6 +253,19 @@ people:
       url: https://twitter.com/_adrianbrown
     - title: linkedin
       url: https://uk.linkedin.com/in/adrian-brown-3246711
+      
+- name: Guilherme Lichand
+  pic: guilhermel.jpg
+  minibio: Diretor Executivo da MGov, Guilherme é um dos principais inovadores do Brasil com menos de 35 anos e inovador social de 2014, segundo a MIT Technology Review. Guilherme é doutor em Economia Política e Governo pela universidade de Harvard, e professor da cátedra da UNICEF de Economia do Desenvolvimento e Bem-estar Infantil da Universidade de Zurich.
+  tema: gov
+  palestra: s
+  social:
+    - title: file-text-o
+      url: http://www.mgovbrasil.com.br/
+    - title: facebook
+      url: https://www.facebook.com/mgovbr/ 
+    - title: linkedin
+      url: https://www.linkedin.com/in/guilherme-lichand-b4aa0554
 
 - name: Guilherme de Almeida
   pic: guilhermea.png
