@@ -10,11 +10,11 @@
 			<!-- GTs -->
 			{% assign nrows = site.people | size | divided_by: 4 %}
 			{% assign gt_people = site.people | sort: 'palestra' %}
-			{% for i in (1..nrows) %}
-			{% capture start %}{{ i | minus: 1 | times: 4 }}{% endcapture %}
-			{% capture endpoint %}{{ i | minus: 1 | times: 4 | plus: 4 }}{% endcapture %}
+			{% for i in (0..nrows) %}
+			{% capture start %}{{ i | times: 4 }}{% endcapture %}
+			{% capture endpoint %}{{ i | times: 4 | plus: 5 }}{% endcapture %}
             <div class="row">
-                {% for person in site.people offset:start limit: end} %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo-->
+                {% for person in site.people offset:start limit: endpoint} %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo-->
 				{% if person.palestra == "s" %}
 				{% break %}
 				{% endif %}
