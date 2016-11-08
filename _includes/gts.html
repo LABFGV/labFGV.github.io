@@ -9,7 +9,7 @@
             </div>
 			<!-- GTs -->
             <div class="row">
-                {% for person in site.people limit:3 %} <!-- ele conta as iterações, e não só as iterações que passaram no teste if abaixo-->
+                {% for person in site.people limit:16 %} <!-- ele conta as iterações, e não só as iterações que passaram no teste if abaixo-->
 				{% if person.palestra == "n" %}
 				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
 					<div class="team-member text-center">
@@ -44,20 +44,32 @@
                 </div>
                 {% endif %}
                 {% endfor %}
+			</div>
 				<br>
-				<!--
-                {% for person in site.people offset:5 %}
-				{% if person.tema == "gov" %}
-				{% if person.palestra == "s" %}
-				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12">
+			<div class="row">
+                {% for person in site.people offset:17 %}
+				{% if person.palestra == "n" %}
+				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
 						<p class="text-muted">{{ person.minibio }}</p>
 						<ul class="list-inline social-buttons">
+						{% if person.tema == "gov" %}
 							<li>
-								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+								<a class="page-scroll" href="#pilares"><img src="img/pilares/governo-digital.png" width="15px" alt="presente no grupo de trabalho de governo digital"></a>
 							</li>
+						{% endif %}
+						{% if person.tema == "eco" %}
+							<li>
+								<a class="page-scroll" href="#pilares"><img src="img/pilares/economia-digital.png" width="15px" alt="presente no grupo de trabalho de economia digital"></a>
+							</li>
+						{% endif %}
+						{% if person.tema == "educ" %}
+							<li>
+								<a class="page-scroll" href="#pilares"><img src="img/pilares/sociedade-digital.png" width="15px" alt="presente no grupo de trabalho de educação digital"></a>
+							</li>
+						{% endif %}
 						{% for network in person.social %}
 							<li>
 								<a href="{{ network.url }}" target="_blank">
@@ -69,10 +81,8 @@
                     </div>
                 </div>
                 {% endif %}
-				{% endif %}
                 {% endfor %}
 		    	<br>
-				-->
             </div>
     </div>
 </section>
