@@ -13,7 +13,7 @@
 			{% assign gt_people = site.people | sort: 'palestra' %}
 			<p>{{gt_people}}</p>
 			{% for i in (1..nrows) %}
-			{% capture startpoint %}{{ i | times: 4 | minus: 4}}{% endcapture %}
+			{% capture startpoint %}{{ i | times: 4 | minus: 3}}{% endcapture %}
             <div class="row">
 			<p>{{startpoint}}</p>
                 {% for person in gt_people offset:startpoint limit: 4} %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo-->
