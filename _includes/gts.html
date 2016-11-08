@@ -12,7 +12,7 @@
 			{% assign gt_people = site.people | sort: 'palestra' %}
 			{% for i in (1..nrows) %}
 			{% capture start %}{{ i | minus: 1 | times: 4 }}{% endcapture %}
-			<p> {{i}} </p>
+			<p> {{start}} </p>
             <div class="row">
 				{% assign counter = 0 %}
                 {% for person in gt_people offset: start %} <!-- ele conta as iterações, e não só as iterações que passaram no teste if abaixo-->
