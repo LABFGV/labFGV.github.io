@@ -61,7 +61,7 @@ people:
 
 - name: Pedro Henrique de Cristo
   pic: pedrocristo.png  
-  minibio: Fundador do +D estúdio e Dir. Exec. do Parque+Instituto Sitiê, Pedro dedica sua carreira de designer, acadêmico e empreendedor para a integração da arquitetura com políticas públicas e tecnologia. MPP'11 por Harvard, onde sua tese foi transformada na aula School of the Year 2030, é um Lemann Fellow, membro RAPS e Bolsista da Fundação Estudar tendo sido Prof. Visitante na Universidade da Cidade do Cabo, URBAM-EAFIT Medellín e PUC-RJ.
+  minibio: Fundador do +D estúdio e Dir. Exec. do Parque+Instituto Sitiê, Pedro dedica sua carreira de designer, acadêmico e empreendedor para a integração da arquitetura com políticas públicas e tecnologia. MPP'11 por Harvard, é um Lemann Fellow, membro RAPS e Bolsista da Fundação Estudar.
   tema: educ
   palestra: n
   social:
@@ -101,7 +101,7 @@ people:
 
 - name: Francisco Barreto Araújo
   pic: barretoaraujo.jpg
-  minibio: Cientista social, Francisco Barreto Araújo atualmente trabalha no Viva Rio e na Diretoria de Análise de Políticas Públicas (DAPP) da FGV.
+  minibio: Cientista social, Francisco Barreto Araújo atualmente trabalha no Viva Rio. Conduz pesquisas nas áreas de ciência, tecnologia e sociedade, com foco na elaboração de políticas públicas.
   tema: educ
   palestra: n
   social:
@@ -226,14 +226,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/pablocerdeira
 
-- name: Danilo Moura
-  pic: moura.jpg
-  minibio: Bacharel em Relações Internacionais e mestre em administração pública pela Universidade de Columbia. Trabalhou em relevantes organizações, como a Transparência Internacional. Atualmente, é Gerente de Avaliação do Instituto Pereira Passos.
-  tema: gov
-  palestra: n
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/danilo-moura-7a515866
+#- name: Danilo Moura
+#  pic: moura.jpg
+#  minibio: Bacharel em Relações Internacionais e mestre em administração pública pela Universidade de Columbia. Trabalhou em relevantes organizações, como a Transparência Internacional. Atualmente, é Gerente de Avaliação do Instituto Pereira Passos.
+#  tema: gov
+#  palestra: n
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/danilo-moura-7a515866
 
 - name: Michael Cerqueira
   pic: michaelvetor.png
