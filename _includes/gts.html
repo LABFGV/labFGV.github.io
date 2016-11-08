@@ -12,14 +12,10 @@
 			{% assign gt_people = site.people | sort: 'palestra' %}
 			{% for i in (1..nrows) %}
 			{% capture start %}{{ i | minus: 1 | times: 4 }}{% endcapture %}
+			{% capture endpoint %}{{ i | minus: 1 | times: 4 | plus: 4 }}{% endcapture %}
             <div class="row">
-				{% assign counter = 0 %}
-                {% for person in gt_people offset: start %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo-->
-				{% assign counter | plus: 1 %}
+                {% for person in site.people offset:start limit: end} %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo-->
 				{% if person.palestra == "s" %}
-				{% break %}
-				{% endif %}
-				{% if counter > 4 %}
 				{% break %}
 				{% endif %}
 				<div class="col-md-3 col-sm-4 col-xs-12"> <!-- col-lg-5ths original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
@@ -54,6 +50,7 @@
                     </div>
                 </div>
                 {% endfor %}
+				<br>
 			</div>
 			{% endfor %}
 			<br>
