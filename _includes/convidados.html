@@ -1,66 +1,64 @@
-<!-- Importante redimensionar de acordo com o numero de pessoas; textos tem de estar mais ou menos do mesmo tamanho, se adicionar mais gente precisa de colocar o código de governo digital pros outros; liquid https://help.shopify.com/themes/liquid/tags/iteration-tags -->
+<!-- Importante redimensionar de acordo com o número de pessoas; textos tem de estar mais ou menos do mesmo tamanho, se adicionar mais gente precisa de colocar o código de governo digital pros outros; liquid https://help.shopify.com/themes/liquid/tags/iteration-tags -->
     <section id="convidados" class="bg-light-gray">
         <div class="container">
             <div class="row">
-		    <hr class="section-heading-spacer">
+		    	<hr class="section-heading-spacer">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Convidados</h2>
+                    <h2 class="section-heading">Painelistas</h2>
                 </div>
             </div>
-	<div class="row">
-		<h2 class="section-subheading text-muted" align="center">
-			Sociedade Digital 
-		</h2>
-		<br>
+            <!-- sociedade digital -->
+			<div class="row">
+				<h2 class="section-subheading text-muted" align="center">
+					Sociedade Digital
+				</h2>
+				<br>
+				<tr>
                 {% for person in site.people %}
-			{% if person.tema == "educ" %}
-				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- col-lg-3 col-md-4 col-xs-6 -->
+				{% if person.tema == "educ" %}
+				{% if person.palestra == "s" %}
+				<th>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-5ths col-lg-3 col-md-4 col-xs-6 -->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
-							<h4>{{ person.name }}</h4>
-							<p class="text-muted">{{ person.minibio }}</p>
-							<ul class="list-inline social-buttons">
-								{% if person.palestra == "s" %}
-								<li>
-									<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
-								</li>
-								{% endif %}
-								<li>
-									<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
-								</li>
-							{% for network in person.social %}
-								<li>
-									<a href="{{ network.url }}" target="_blank">
-										<i class="fa fa-{{ network.title }}"></i>
-									</a>
-								</li>
-                            				{% endfor %}
-
-                        				</ul>
-                    			</div>
-               			</div>
-			{% endif %}
+						<h4>{{ person.name }}</h4>
+						<p class="text-muted">{{ person.minibio }}</p>
+						<ul class="list-inline social-buttons">
+							<li>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+							</li>
+						{% for network in person.social %}
+							<li>
+								<a href="{{ network.url }}" target="_blank">
+									<i class="fa fa-{{ network.title }}"></i>
+								</a>
+							</li>
+                        {% endfor %}
+						</ul>
+                    </div>
+               	</div>
+		</th>
+               	{% endif %}
+				{% endif %}
                 {% endfor %}
-		<br>
-	</div>
+				</tr>
+				<br>
+			</div>
+			<!-- governo digital -->
             <div class="row">
-		<h2 class="section-subheading text-muted" align="center"> 
-			Governo Digital
-		</h2>
-		<br>
-                {% for person in site.people limit:3 %}
-			{% if person.tema == "gov" %}
-				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
+				<h2 class="section-subheading text-muted" align="center"> 
+					Governo Digital
+				</h2>
+				<br>
+                {% for person in site.people limit:4 %}
+				{% if person.tema == "gov" %}
+				{% if person.palestra == "s" %}
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
 						<p class="text-muted">{{ person.minibio }}</p>
 						<ul class="list-inline social-buttons">
-						{% if person.palestra == "s" %}
-							<li>
-								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
-							</li>
-						{% endif %}
 							<li>
 								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
 							</li>
@@ -70,26 +68,23 @@
 									<i class="fa fa-{{ network.title }}"></i>
 								</a>
 							</li>
-                            			{% endfor %}
-			                        </ul>
-                    			</div>
-                		</div>
-			{% endif %}
+                        {% endfor %}
+			            </ul>
+                    </div>
+                </div>
+                {% endif %}
+				{% endif %}
                 {% endfor %}
-		<br>
-                {% for person in site.people offset:4 %}
-			{% if person.tema == "gov" %}
-				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- col-lg-2 col-md-4 col-xs-6 -->
+				<br>
+                {% for person in site.people offset:5 %}
+				{% if person.tema == "gov" %}
+				{% if person.palestra == "s" %}
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-2 col-md-4 col-xs-6 -->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
 						<h4>{{ person.name }}</h4>
 						<p class="text-muted">{{ person.minibio }}</p>
 						<ul class="list-inline social-buttons">
-						{% if person.palestra == "s" %}
-							<li>
-								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
-							</li>
-						{% endif %}
 							<li>
 								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
 							</li>
@@ -99,54 +94,52 @@
 									<i class="fa fa-{{ network.title }}"></i>
 								</a>
 							</li>
-                            			{% endfor %}
-			                        </ul>
-                    			</div>
-                		</div>
-			{% endif %}
+                        {% endfor %}
+			            </ul>
+                    </div>
+                </div>
+                {% endif %}
+				{% endif %}
                 {% endfor %}
-		    <br>
+		    	<br>
             </div>
+        <!-- governo digital --> 
 		<div class="row">
-		<h2 class="section-subheading text-muted" align="center">
-			Economia Digital
-		</h2>
-		<br>
-                {% for person in site.people %}
+			<h2 class="section-subheading text-muted" align="center">
+				Economia Digital
+			</h2>
+			<br>
+            {% for person in site.people %}
 			{% if person.tema == "eco" %}
-				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!--col-lg-2 col-md-4 col-xs-6 -->
-					<div class="team-member text-center">
-						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
-						<h4>{{ person.name }}</h4>
-						<p class="text-muted">{{ person.minibio }}</p>
-						<ul class="list-inline social-buttons">
-						{% if person.palestra == "s" %}
-							<li>
-								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-painel.png" width="15px" alt="presente no painel"></a>
-							</li>
-						{% endif %}
-							<li>
-								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
-							</li>
+			{% if person.palestra == "s" %}
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!--col-lg-2 col-md-4 col-xs-6 -->
+				<div class="team-member text-center">
+					<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
+					<h4>{{ person.name }}</h4>
+					<p class="text-muted">{{ person.minibio }}</p>
+					<ul class="list-inline social-buttons">
+						<li>
+							<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+						</li>
 						{% for network in person.social %}
-							<li>
-								<a href="{{ network.url }}" target="_blank">
-								<i class="fa fa-{{ network.title }}"></i>
-								</a>
-							</li>
-                            			{% endfor %}
+						<li>
+							<a href="{{ network.url }}" target="_blank">
+							<i class="fa fa-{{ network.title }}"></i>
+							</a>
+						</li>
+                        {% endfor %}
 
-                        			</ul>
-                    			</div>
-                		</div>
-			{% endif %}
-                {% endfor %}
+                    </ul>
+                </div>
             </div>
+            {% endif %}
+			{% endif %}
+            {% endfor %}
+        </div>
 	    <br>
-       </div>
-    </section>
-
-<!-- Team Section --> <!--
+    </div>
+</section>
+<!-- original:Team Section --> <!--
     <section id="convidados" class="bg-light-gray">
         <div class="container">
             <div class="row">
