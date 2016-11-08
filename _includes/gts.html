@@ -9,7 +9,7 @@
             </div>
 			<!-- GTs -->
             <div class="row">
-                {% for person in site.people %}
+                {% for person in site.people limit:1 %}
 				{% if person.palestra == "n" %}
 				<div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
 					<div class="team-member text-center">
