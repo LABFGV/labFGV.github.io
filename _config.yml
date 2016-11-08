@@ -76,62 +76,75 @@ people:
   social:
     - title: file-text-o
       url: http://www.mapaeducacao.com/quemsomos.html
-      
-- name: Cláudio Lucena 
-  pic: claudiol.jpg
-  minibio: Pesquisador da Fundação para a Ciência e a Tecnologia de Portugal. Membro da Comunidade Octopus Cybercrime do Conselho da Europa, dos Capítulos Brasil e Portugal da Internet Society, da International Law Association e do Comitê Internacional de Estudos sobre a Privacidade.
-  tema: eco
+
+- name: Guilherme Melles
+  pic: melles.png
+  minibio: Administrador da página Quebrando o Tabu no Facebook, a qual discute temas como legalização das drogas, homofobia e violência, Guilherme é formado em Comunicação Social pela Cásper Líbero.
+  tema: educ
   palestra: s
+  social:
+    - title: facebook
+      url: https://www.facebook.com/quebrandootabu/
+    - title: linkedin
+      url: https://br.linkedin.com/in/guilherme-melles-10175363/pt
+
+- name: Carlos Ragazzo
+  pic: ragazzo.jpg
+  minibio: Professor da FGV Direito Rio, Carlos Ragazzo tem vasta experiência no setor público. Foi Superintendente Geral do Conselho Administrativo de Defesa Econômica – CADE. Possui pós-doutorado em Direito pela Universidade da Califórnia em Berkeley.
+  tema: educ
+  palestra: n
   social:
     - title: file-text-o
-      url: http://www.claudiolucena.com/
+      url: carlosragazzo.com.br
+#    - title: lattes
+#      url: http://lattes.cnpq.br/9694200934261935
+
+- name: Francisco Barreto Araújo
+  pic: barretoaraujo.jpg
+  minibio: Cientista social, Francisco Barreto Araújo atualmente trabalha no Viva Rio e na Diretoria de Análise de Políticas Públicas (DAPP) da FGV.
+  tema: educ
+  palestra: n
+  social:
+#    - title: file-text-o
+#      url: #####
     - title: linkedin
-      url: https://www.linkedin.com/in/cl%C3%A1udio-lucena-8227a822
+      url: https://br.linkedin.com/in/francisco-barreto-araujo-1b842326/pt
 
-#- name: Emilio Loures
-#  pic: maximilianol.jpg  
-#  minibio: Diretor de Assuntos Corporativos da Intel do Brasil. Foi gerente de planejamento e desenvolvimento de negócios da AG Telecom, sócio diretor da Miner Technology Group e consultor da Monitor/MGDK e Companhia Vale do Rio Doce.
-#  tema: eco
-#  palestra: s
-#  social:
-#    - title: linkedin
-#      url: https://www.linkedin.com/in/emilio-loures-2b7175
-
-- name: Maximiliano Salvadori Martinhão
-  pic: maximilianom.png
-  minibio: Secretário de Política de Informática (Sepin) do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTI). Já foi Secretário de Telecomunicações no Ministério das Comunicações e Gerente Geral de Certificação e Engenharia do Espectro da ANATEL. 
-  tema: eco
-  palestra: s
+- name: Regina de Assis
+  pic: assis.jpg
+  minibio: Atual Secretária de Articulação com os Sistemas de Ensino do Ministério da Educação. Regina é Doutora em educação, ex-secretária Municipal de Educação do Rio de Janeiro, e membro de organizações que estudam efeitos da mídia sobre as crianças.
+  tema: educ
+  palestra: n
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/maximiliano-s-martinh%C3%A3o-b1a1ab
+      url: https://www.linkedin.com/in/regina-de-assis-b21ab08a
 
-- name: Silvio Meira
-  pic: silviom.jpg
-  minibio: Idealizador e fundador do C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife), também é um dos fundadores do Porto Digital, que transformou o centro histórico de Recife. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do primeiro comitê gestor da Internet/br.
-  tema: eco
-  palestra: s
+- name: Claudio Lensing
+  pic: lensing.jpg
+  minibio: Formado pela Fundação Getulio Vargas, trabalhou em diversas firmas do mercado financeiro e de consultoria. Atualmente, trabalha no Somos Educação.
+  tema: educ
+  palestra: n
   social:
+#    - title: file-text-o
+#      url: #####
     - title: linkedin
-      url: https://www.linkedin.com/in/silviomeira
+      url: https://www.linkedin.com/in/claudio-lensing-9534b72b
 
-- name: João Alberto De Negri 
-  pic: joao-de-negri.png
-  minibio: Pesquisador e Diretor do IPEA, João de Negri já foi Vice-Presidente do instituto de 2005 a 2007. Foi também Secretário Executivo do Ministério da Ciência, Tecnologia e Inovação (MCTI) em 2014. Ainda, foi membro da Diretoria Executiva e Diretor de Inovação da FINEP. 
-  tema: eco
-  palestra: s
+- name: Ricardo Madeira
+  pic: madeira.jpg
+  minibio: Sócio fundador da Tuneduc, Ricardo é PhD em Economia pela Universidade de Boston e professor do Departamento de Economia da USP.
+  tema: educ
+  palestra: n
   social:
     - title: file-text-o
-      url: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782321Y8
-      
-#- name: Renan Rego  
-#  pic: Renan.jpg
-#  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
-#  tema: eco
-#  palestra: s
-#  social:
-#    - title: linkedin
-#      url: https://www.linkedin.com/in/renancostarego
+      url: http://lattes.cnpq.br/3761369134742664
+	  
+
+- name: Antônio Neto
+  pic: neto.jpg
+  minibio:  Ex-Secretário de Estado de Educação do Rio de Janeiro, Antônio Neto é atual Diretor Institucional do Conselho Nacional de Secretários de Educação
+  tema: educ
+  palestra: n
 
 - name: Gustavo Maia
   pic: gustavom.jpg
@@ -213,7 +226,16 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/pablocerdeira
-      
+
+- name: Danilo Moura
+  pic: moura.jpg
+  minibio: Bacharel em Relações Internacionais e mestre em administração pública pela Universidade de Columbia. Trabalhou em relevantes organizações, como a Transparência Internacional. Atualmente, é Gerente de Avaliação do Instituto Pereira Passos.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/danilo-moura-7a515866
+
 - name: Michael Cerqueira
   pic: michaelvetor.png
   minibio: Líder de Relacionamento com Governo no Vetor Brasil, é graduado em Administração Pública pela Fundação Getulio Vargas.
@@ -228,3 +250,70 @@ people:
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
   tema: gov 
   palestra: n
+
+- name: Cláudio Lucena 
+  pic: claudiol.jpg
+  minibio: Pesquisador da Fundação para a Ciência e a Tecnologia de Portugal. Membro da Comunidade Octopus Cybercrime do Conselho da Europa, dos Capítulos Brasil e Portugal da Internet Society, da International Law Association e do Comitê Internacional de Estudos sobre a Privacidade.
+  tema: eco
+  palestra: s
+  social:
+    - title: file-text-o
+      url: http://www.claudiolucena.com/
+    - title: linkedin
+      url: https://www.linkedin.com/in/cl%C3%A1udio-lucena-8227a822
+
+- name: Maximiliano Salvadori Martinhão
+  pic: maximilianom.png
+  minibio: Secretário de Política de Informática (Sepin) do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTI). Já foi Secretário de Telecomunicações no Ministério das Comunicações e Gerente Geral de Certificação e Engenharia do Espectro da ANATEL. 
+  tema: eco
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/maximiliano-s-martinh%C3%A3o-b1a1ab
+
+- name: Silvio Meira
+  pic: silviom.jpg
+  minibio: Idealizador e fundador do C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife), também é um dos fundadores do Porto Digital, que transformou o centro histórico de Recife. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do primeiro comitê gestor da Internet/br.
+  tema: eco
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/silviomeira
+
+- name: João Alberto De Negri 
+  pic: joao-de-negri.png
+  minibio: Pesquisador e Diretor do IPEA, João de Negri já foi Vice-Presidente do instituto de 2005 a 2007. Foi também Secretário Executivo do Ministério da Ciência, Tecnologia e Inovação (MCTI) em 2014. Ainda, foi membro da Diretoria Executiva e Diretor de Inovação da FINEP. 
+  tema: eco
+  palestra: s
+  social:
+    - title: file-text-o
+      url: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782321Y8
+      
+#- name: Renan Rego  
+#  pic: Renan.jpg
+#  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
+#  tema: eco
+#  palestra: s
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/renancostarego
+
+- name: Emilio Loures
+  pic: loures.jpg
+  minibio: Formado pela Coppead/UFRJ, atualmente está na direção das iniciativas de políticas públicas da Intel no Brasil.
+  tema: eco
+  palestra: s
+  social:
+#    - title: file-text-o
+#      url: ######
+    - title: linkedin
+      url: https://www.linkedin.com/in/emilio-loures-2b7175
+
+- name: Caitlin Mulholland
+  pic: mulholland.jpg
+  minibio:  Doutora em Direito Civil pela Universidade do Estado do Rio de Janeiro, é autora do livro Responsabilidade Civil por Presunção de Causalidade.
+  tema: eco
+  palestra: n
+  social:
+    - title: file-text-o
+      url: http://lattes.cnpq.br/5010668019661821
