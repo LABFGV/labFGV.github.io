@@ -149,7 +149,7 @@ people:
   pic: gustavom.jpg
   minibio: É fundador do Colab, uma rede social para cidadania em que o usuário é capaz de fiscalizar, propor e avaliar diversos pontos da sua cidade, estado e país.
   tema: gov
-  palestra: s
+  palestra: n
   social:
     - title: file-text-o
       url: http://www.colab.re/ 
@@ -162,7 +162,7 @@ people:
   pic: roman.png
   minibio: É fundador do Atlas Político, uma ferramenta online largamente acessível para toda a população monitorar a atuação dos políticos brasileiros e se engajar em apoio àquelas iniciativas políticas e projetos de lei que considera importantes para o país.
   tema: gov
-  palestra: s
+  palestra: n
   social:
     - title: file-text-o
       url: http://www.atlaspolitico.com.br/
@@ -249,17 +249,6 @@ people:
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
   tema: gov 
   palestra: n
-
-- name: Cláudio Lucena 
-  pic: claudiol.jpg
-  minibio: Pesquisador da Fundação para a Ciência e a Tecnologia de Portugal. Membro da Comunidade Octopus Cybercrime do Conselho da Europa, dos Capítulos Brasil e Portugal da Internet Society, da International Law Association e do Comitê Internacional de Estudos sobre a Privacidade.
-  tema: eco
-  palestra: s
-  social:
-    - title: file-text-o
-      url: http://www.claudiolucena.com/
-    - title: linkedin
-      url: https://www.linkedin.com/in/cl%C3%A1udio-lucena-8227a822
 
 - name: Maximiliano Salvadori Martinhão
   pic: maximilianom.png
