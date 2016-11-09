@@ -226,14 +226,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/pablocerdeira
 
-#- name: Danilo Moura
-#  pic: moura.jpg
-#  minibio: Bacharel em Relações Internacionais e mestre em administração pública pela Universidade de Columbia. Trabalhou em relevantes organizações, como a Transparência Internacional. Atualmente, é Gerente de Avaliação do Instituto Pereira Passos.
-#  tema: gov
-#  palestra: n
-#  social:
-#    - title: linkedin
-#      url: https://www.linkedin.com/in/danilo-moura-7a515866
+- name: Danilo Moura
+  pic: moura.jpg
+  minibio: Bacharel em Relações Internacionais e mestre em administração pública pela Universidade de Columbia. Trabalhou em relevantes organizações, como a Transparência Internacional. Atualmente, é Gerente de Avaliação do Instituto Pereira Passos.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/danilo-moura-7a515866
 
 - name: Michael Cerqueira
   pic: michaelvetor.png
