@@ -77,7 +77,7 @@ people:
     - title: file-text-o
       url: http://www.mapaeducacao.com/quemsomos.html
 
-- name: Guilherme Melles
+- name: Guilherme Melles (Moderador)
   pic: melles.png
   minibio: Administrador da página Quebrando o Tabu no Facebook, a qual discute temas como legalização das drogas, homofobia e violência, Guilherme é formado em Comunicação Social pela Cásper Líbero.
   tema: educ
@@ -226,14 +226,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/pablocerdeira
 
-#- name: Danilo Moura
-#  pic: moura.jpg
-#  minibio: Bacharel em Relações Internacionais e mestre em administração pública pela Universidade de Columbia. Trabalhou em relevantes organizações, como a Transparência Internacional. Atualmente, é Gerente de Avaliação do Instituto Pereira Passos.
-#  tema: gov
-#  palestra: n
-#  social:
-#    - title: linkedin
-#      url: https://www.linkedin.com/in/danilo-moura-7a515866
+- name: Danilo Moura
+  pic: moura.jpg
+  minibio: Bacharel em Relações Internacionais e mestre em administração pública pela Universidade de Columbia. Trabalhou em relevantes organizações, como a Transparência Internacional. Atualmente, é Gerente de Avaliação do Instituto Pereira Passos.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/danilo-moura-7a515866
 
 - name: Michael Cerqueira
   pic: michaelvetor.png
