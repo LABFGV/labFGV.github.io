@@ -249,6 +249,51 @@ people:
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
   tema: gov 
   palestra: n
+  
+- name: Luis Felipe Salin Monteiro
+  pic: luis_felipe.jpg
+  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Públicado Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
+  tema: gov
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/luisfsmonteiro/pt
+
+- name: Bruno Bondarovsky
+  pic: bruno.jpg
+  minibio: Atual Subsecretário de Planejamento e Gestão Estratégica da Ordem Pública da Prefeitura do Rio de Janeiro, é engenheiro da computação. Na prefeitura, participa de projetos de desburocratização da administração pública.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://https://www.linkedin.com/in/bruno-bondarovsky-94b329
+
+- name: Gregory Michener
+  pic: gregory.jpg
+  minibio: Professor da Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas, Michener é Ph.D. pela Universidade do Texas em Austin em Política Comparativa e Relações Internacionais. Suas pesquisas se concentram na área de transparência pública. Nessa mesma área, já prestou serviços para organizações internacionais.
+  tema: gov
+  palestra: n
+  social:
+    - title: file-text-o
+      url: http://gregmichener.com/pt/
+
+#- name: Regina Pacheco
+#  pic: regina.jpg
+#  minibio: Doutora em Desenvolvimento Urbano e Meio Ambiente pela Université de Paris XII, Pacheco é professora da Escola de Administração de Empresas de São Paulo da Fundação Getulio Vargas. Sua pesquisa se concentra nas áres de gov e Gestão Pública. 
+#  tema: gov
+#  palestra: n
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/pachecoregina/pt
+
+#- name: Caio Farah
+#  pic: caio.jpg
+#  minibio: LL.M. pela Harvard Law School e Doutor em Direito pela USP, é atualmente professor da Escola de Direito do Rio de Janeiro da Fundação Getulio Vargas. É sócio do Barros Pimentel, Alcântara Gil, Rodriguez e Vargas  Advogados. 
+#  tema: gov
+#  palestra: n
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/caio-farah-rodriguez-3ab548
 
 - name: Maximiliano Salvadori Martinhão
   pic: maximilianom.png
