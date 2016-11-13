@@ -92,7 +92,7 @@ people:
   pic: ragazzo.jpg
   minibio: Professor da FGV Direito Rio, Carlos Ragazzo tem vasta experiência no setor público. Foi Superintendente Geral do Conselho Administrativo de Defesa Econômica – CADE. Possui pós-doutorado em Direito pela Universidade da Califórnia em Berkeley.
   tema: educ
-  palestra: n
+  palestra: s
   social:
     - title: file-text-o
       url: carlosragazzo.com.br
@@ -249,15 +249,64 @@ people:
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
   tema: gov 
   palestra: n
-
-- name: Maximiliano Salvadori Martinhão
-  pic: maximilianom.png
-  minibio: Secretário de Política de Informática (Sepin) do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTI). Já foi Secretário de Telecomunicações no Ministério das Comunicações e Gerente Geral de Certificação e Engenharia do Espectro da ANATEL. 
-  tema: eco
+  
+- name: Luis Felipe Salin Monteiro
+  pic: luis felipe.jpg
+  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Públicado Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
+  tema: gov
   palestra: s
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/maximiliano-s-martinh%C3%A3o-b1a1ab
+      url: https://www.linkedin.com/in/luisfsmonteiro/pt
+
+
+- name: Bruno Bondarovsky
+  pic: bruno.jpg
+  minibio: Atual Subsecretário de Planejamento e Gestão Estratégica da Ordem Pública da Prefeitura do Rio de Janeiro, é engenheiro da computação. Na prefeitura, participa de projetos de desburocratização da administração pública.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://https://www.linkedin.com/in/bruno-bondarovsky-94b329
+
+- name: Gregory Michener
+  pic: gregory.jpg
+  minibio: Professor da Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas, Michener é Ph.D. pela Universidade do Texas em Austin em Política Comparativa e Relações Internacionais. Suas pesquisas se concentram na área de transparência pública. Nessa mesma área, já prestou serviços para organizações internacionais.
+  tema: gov
+  palestra: n
+  social:
+    - title: file-text-o
+      url: http://gregmichener.com/pt/
+
+
+#- name: Regina Pacheco
+#  pic: regina.jpg
+#  minibio: Doutora em Desenvolvimento Urbano e Meio Ambiente pela Université de Paris XII, Pacheco é professora da Escola de Administração de Empresas de São Paulo da Fundação Getulio Vargas. Sua pesquisa se concentra nas áres de gov e Gestão Pública. 
+#  tema: gov
+#  palestra: n
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/pachecoregina/pt
+
+
+
+#- name: Caio Farah
+#  pic: caio.jpg
+#  minibio: LL.M. pela Harvard Law School e Doutor em Direito pela USP, é atualmente professor da Escola de Direito do Rio de Janeiro da Fundação Getulio Vargas. É sócio do Barros Pimentel, Alcântara Gil, Rodriguez e Vargas  Advogados. 
+#  tema: gov
+#  palestra: n
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/caio-farah-rodriguez-3ab548
+
+#- name: Maximiliano Salvadori Martinhão
+#  pic: maximilianom.png
+#  minibio: Secretário de Política de Informática (Sepin) do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTI). Já foi Secretário de Telecomunicações no Ministério das Comunicações e Gerente Geral de Certificação e Engenharia do Espectro da ANATEL. 
+#  tema: eco
+#  palestra: s
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/maximiliano-s-martinh%C3%A3o-b1a1ab
 
 - name: Silvio Meira
   pic: silviom.jpg
@@ -293,7 +342,7 @@ people:
   palestra: s
   social:
 #    - title: file-text-o
-#      url: ######
+#      url:
     - title: linkedin
       url: https://www.linkedin.com/in/emilio-loures-2b7175
 
@@ -305,3 +354,31 @@ people:
   social:
     - title: file-text-o
       url: http://lattes.cnpq.br/5010668019661821
+      
+- name: Renato Rocha Souza
+  pic: renato.jpg
+  minibio: Engenheiro Elétrico, possui doutorado em Ciência da Informação pela Universidade Federal de Minas Gerais (UFMG). Atualmente, é professor da Escola de Matemática Aplicada da Fundação Getulio Vargas e da Escola de Ciência da Informação da UFMG. Pesquisa na área de Ciência da Informação. 
+  tema: eco
+  palestra: n
+  social:
+    - title: github
+      url: https://github.com/rsouza
+
+
+- name: Gustavo Robichez de Carvalho
+  pic: gustavo.jpg
+  minibio: Graduado em Engenharia de Computação, possui doutorado em Informática pela Pontofícia Universidade Católica do Rio de Janeiro. Tem experiência nas áreas de Planejamento Estratégico e Engenharia de Software.
+  tema: eco
+  palestra: n
+  social:
+#    - title: file-text-o
+#      url: 
+
+- name: Miriam Wimmer
+  pic: miriam.jpg
+  minibio: Doutora em Políticas de Comunicação e Cultura pela Universidade de Brasília, é diretora do Departamento de Serviços e de Universalização de Telecomunicações do Ministério das Comunicações. Tem ampla experiência no setor público brasileiro, sobretudo no ramo da comunicação.
+  tema: eco
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/miriamwimmer
