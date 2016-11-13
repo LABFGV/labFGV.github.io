@@ -295,6 +295,15 @@ people:
 #    - title: linkedin
 #      url: https://www.linkedin.com/in/caio-farah-rodriguez-3ab548
 
+- name: Miriam Wimmer
+  pic: miriam.jpg
+  minibio: Doutora em Políticas de Comunicação e Cultura pela Universidade de Brasília, é diretora do Departamento de Serviços e de Universalização de Telecomunicações do Ministério das Comunicações. Tem ampla experiência no setor público brasileiro, sobretudo no ramo da comunicação.
+  tema: eco
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/miriamwimmer
+
 - name: Silvio Meira
   pic: silviom.jpg
   minibio: Idealizador e fundador do C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife), também é um dos fundadores do Porto Digital, que transformou o centro histórico de Recife. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do primeiro comitê gestor da Internet/br.
@@ -341,3 +350,21 @@ people:
   social:
     - title: file-text-o
       url: http://lattes.cnpq.br/5010668019661821
+
+- name: Renato Rocha Souza
+  pic: renato.jpg
+  minibio: Engenheiro Elétrico, possui doutorado em Ciência da Informação pela Universidade Federal de Minas Gerais (UFMG). Atualmente, é professor da Escola de Matemática Aplicada da Fundação Getulio Vargas e da Escola de Ciência da Informação da UFMG. Pesquisa na área de Ciência da Informação. 
+  tema: eco
+  palestra: n
+  social:
+    - title: github
+      url: https://github.com/rsouza
+
+- name: Gustavo Robichez de Carvalho
+  pic: gustavo.jpg
+  minibio: Graduado em Engenharia de Computação, possui doutorado em Informática pela Pontofícia Universidade Católica do Rio de Janeiro. Tem experiência nas áreas de Planejamento Estratégico e Engenharia de Software.
+  tema: eco
+  palestra: n
+#  social:
+#    - title: file-text-o
+#      url:
