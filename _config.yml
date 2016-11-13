@@ -268,15 +268,14 @@ people:
     - title: linkedin
       url: https://https://www.linkedin.com/in/bruno-bondarovsky-94b329
 
-- name: Gregory Michener
-  pic: gregory.jpg
-  minibio: Professor da Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas, Michener é Ph.D. pela Universidade do Texas em Austin em Política Comparativa e Relações Internacionais. Suas pesquisas se concentram na área de transparência pública. Nessa mesma área, já prestou serviços para organizações internacionais.
-  tema: gov
-  palestra: n
-  social:
-    - title: file-text-o
-      url: http://gregmichener.com/pt/
-
+#- name: Gregory Michener
+#  pic: gregory.jpg
+#  minibio: Professor da Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas, Michener é Ph.D. pela Universidade do Texas em Austin em Política Comparativa e Relações Internacionais. Suas pesquisas se concentram na área de transparência pública. Nessa mesma área, já prestou serviços para organizações internacionais.
+#  tema: gov
+#  palestra: n
+#  social:
+#    - title: file-text-o
+#      url: http://gregmichener.com/pt/
 
 #- name: Regina Pacheco
 #  pic: regina.jpg
