@@ -249,24 +249,6 @@ people:
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
   tema: gov 
   palestra: n
-  
-- name: Luis Felipe Salin Monteiro
-  pic: luis_felipe.jpg
-  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Públicado Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
-  tema: gov
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/luisfsmonteiro/pt
-
-- name: Bruno Bondarovsky
-  pic: bruno.png
-  minibio: Atual Subsecretário de Planejamento e Gestão Estratégica da Ordem Pública da Prefeitura do Rio de Janeiro, é engenheiro da computação. Na prefeitura, participa de projetos de desburocratização da administração pública.
-  tema: gov
-  palestra: n
-  social:
-    - title: linkedin
-      url: https://https://www.linkedin.com/in/bruno-bondarovsky-94b329
 
 - name: Gregory Michener
   pic: gregory.jpg
