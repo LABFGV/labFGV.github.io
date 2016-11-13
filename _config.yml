@@ -259,6 +259,15 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/luisfsmonteiro/pt
 
+- name: Bruno Bondarovsky
+  pic: bruno.png
+  minibio: Atual Subsecretário de Planejamento e Gestão Estratégica da Ordem Pública da Prefeitura do Rio de Janeiro, é engenheiro da computação. Na prefeitura, participa de projetos de desburocratização da administração pública.
+  tema: gov
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://https://www.linkedin.com/in/bruno-bondarovsky-94b329
+
 - name: Silvio Meira
   pic: silviom.jpg
   minibio: Idealizador e fundador do C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife), também é um dos fundadores do Porto Digital, que transformou o centro histórico de Recife. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do primeiro comitê gestor da Internet/br.
