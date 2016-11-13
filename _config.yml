@@ -243,7 +243,7 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/michael-cerqueira-5b330069
-      
+
 - name: Vitor Mihessen
   pic: VitorMihessen.jpg 
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
@@ -251,14 +251,13 @@ people:
   palestra: n
   
 - name: Luis Felipe Salin Monteiro
-  pic: luis-felipe.jpg
+  pic: luis_felipe.jpg
   minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Públicado Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
   tema: gov
   palestra: s
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/luisfsmonteiro/pt
-
 
 - name: Bruno Bondarovsky
   pic: bruno.jpg
@@ -288,8 +287,6 @@ people:
 #    - title: linkedin
 #      url: https://www.linkedin.com/in/pachecoregina/pt
 
-
-
 #- name: Caio Farah
 #  pic: caio.jpg
 #  minibio: LL.M. pela Harvard Law School e Doutor em Direito pela USP, é atualmente professor da Escola de Direito do Rio de Janeiro da Fundação Getulio Vargas. É sócio do Barros Pimentel, Alcântara Gil, Rodriguez e Vargas  Advogados. 
@@ -298,7 +295,6 @@ people:
 #  social:
 #    - title: linkedin
 #      url: https://www.linkedin.com/in/caio-farah-rodriguez-3ab548
-
 
 #- name: Maximiliano Salvadori Martinhão
 #  pic: maximilianom.png
