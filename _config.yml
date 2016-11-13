@@ -259,9 +259,8 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/luisfsmonteiro/pt
 
-
 - name: Bruno Bondarovsky
-  pic: bruno.jpg
+  pic: bruno.png
   minibio: Atual Subsecretário de Planejamento e Gestão Estratégica da Ordem Pública da Prefeitura do Rio de Janeiro, é engenheiro da computação. Na prefeitura, participa de projetos de desburocratização da administração pública.
   tema: gov
   palestra: n
@@ -278,7 +277,6 @@ people:
     - title: file-text-o
       url: http://gregmichener.com/pt/
 
-
 #- name: Regina Pacheco
 #  pic: regina.jpg
 #  minibio: Doutora em Desenvolvimento Urbano e Meio Ambiente pela Université de Paris XII, Pacheco é professora da Escola de Administração de Empresas de São Paulo da Fundação Getulio Vargas. Sua pesquisa se concentra nas áres de gov e Gestão Pública. 
@@ -287,8 +285,6 @@ people:
 #  social:
 #    - title: linkedin
 #      url: https://www.linkedin.com/in/pachecoregina/pt
-
-
 
 #- name: Caio Farah
 #  pic: caio.jpg
@@ -363,7 +359,6 @@ people:
   social:
     - title: github
       url: https://github.com/rsouza
-
 
 - name: Gustavo Robichez de Carvalho
   pic: gustavo.jpg
