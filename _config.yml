@@ -259,14 +259,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/luisfsmonteiro/pt
 
-- name: Bruno Bondarovsky
-  pic: bruno.jpg
-  minibio: Atual Subsecretário de Planejamento e Gestão Estratégica da Ordem Pública da Prefeitura do Rio de Janeiro, é engenheiro da computação. Na prefeitura, participa de projetos de desburocratização da administração pública.
-  tema: gov
-  palestra: n
-  social:
-    - title: linkedin
-      url: https://https://www.linkedin.com/in/bruno-bondarovsky-94b329
+#- name: Bruno Bondarovsky
+#  pic: bruno.jpg
+#  minibio: Atual Subsecretário de Planejamento e Gestão Estratégica da Ordem Pública da Prefeitura do Rio de Janeiro, é engenheiro da computação. Na prefeitura, participa de projetos de desburocratização da administração pública.
+#  tema: gov
+#  palestra: n
+#  social:
+#    - title: linkedin
+#      url: https://https://www.linkedin.com/in/bruno-bondarovsky-94b329
 
 #- name: Gregory Michener
 #  pic: gregory.jpg
