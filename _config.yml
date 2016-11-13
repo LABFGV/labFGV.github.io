@@ -251,7 +251,7 @@ people:
   palestra: n
   
 - name: Luis Felipe Salin Monteiro
-  pic: luis felipe.jpg
+  pic: "luis felipe.jpg"
   minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Públicado Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
   tema: gov
   palestra: s
@@ -365,7 +365,7 @@ people:
   minibio: Graduado em Engenharia de Computação, possui doutorado em Informática pela Pontofícia Universidade Católica do Rio de Janeiro. Tem experiência nas áreas de Planejamento Estratégico e Engenharia de Software.
   tema: eco
   palestra: n
-  social:
+#  social:
 #    - title: file-text-o
 #      url: 
 
