@@ -250,6 +250,15 @@ people:
   tema: gov 
   palestra: n
 
+- name: Luis Felipe Salin Monteiro
+  pic: luis_felipe.jpg
+  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Pública do Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
+  tema: gov
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/luisfsmonteiro/pt
+
 - name: Silvio Meira
   pic: silviom.jpg
   minibio: Idealizador e fundador do C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife), também é um dos fundadores do Porto Digital, que transformou o centro histórico de Recife. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do primeiro comitê gestor da Internet/br.
