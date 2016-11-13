@@ -61,7 +61,7 @@ people:
 
 - name: Pedro Henrique de Cristo
   pic: pedrocristo.png  
-  minibio: Fundador do +D estúdio e Dir. Exec. do Parque+Instituto Sitiê, Pedro dedica sua carreira de designer, acadêmico e empreendedor para a integração da arquitetura com políticas públicas e tecnologia. MPP'11 por Harvard, é um Lemann Fellow, membro RAPS e Bolsista da Fundação Estudar.
+  minibio: Fundador do +D estúdio e Dir. Exec. do Parque+Instituto Sitiê, Pedro dedica sua carreira de designer, acadêmico e empreendedor para a integração da arquitetura com políticas públicas e tecnologia. MPP-11 por Harvard, é um Lemann Fellow, membro RAPS e Bolsista da Fundação Estudar.
   tema: educ
   palestra: n
   social:
@@ -106,7 +106,7 @@ people:
   palestra: n
   social:
 #    - title: file-text-o
-#      url: #####
+#      url:
     - title: linkedin
       url: https://br.linkedin.com/in/francisco-barreto-araujo-1b842326/pt
 
@@ -192,7 +192,7 @@ people:
       url: https://twitter.com/_adrianbrown
     - title: linkedin
       url: https://uk.linkedin.com/in/adrian-brown-3246711
-      
+
 - name: Guilherme Lichand
   pic: guilhermel.jpg
   minibio: Diretor Executivo da MGov, Guilherme é um dos principais inovadores do Brasil com menos de 35 anos e inovador social de 2014, segundo a MIT Technology Review. Guilherme é doutor em Economia Política e Governo pela universidade de Harvard, e professor da cátedra da UNICEF de Economia do Desenvolvimento e Bem-estar Infantil da Universidade de Zurich.
@@ -243,16 +243,16 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/michael-cerqueira-5b330069
-      
+
 - name: Vitor Mihessen
   pic: VitorMihessen.jpg 
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
   tema: gov 
   palestra: n
-  
+
 - name: Luis Felipe Salin Monteiro
   pic: luis-felipe.jpg
-  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Públicado Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
+  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Pública do Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado.
   tema: gov
   palestra: s
   social:
@@ -270,7 +270,7 @@ people:
 
 - name: Gregory Michener
   pic: gregory.jpg
-  minibio: Professor da Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas, Michener é Ph.D. pela Universidade do Texas em Austin em Política Comparativa e Relações Internacionais. Suas pesquisas se concentram na área de transparência pública. Nessa mesma área, já prestou serviços para organizações internacionais.
+  minibio: Professor da Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas, Michener é Ph.D. pela Universidade do Texas em Política Comparativa e Relações Internacionais. Suas pesquisas se concentram na área de transparência pública. Nessa mesma área, já prestou serviços para organizações internacionais.
   tema: gov
   palestra: n
   social:
@@ -321,7 +321,7 @@ people:
   social:
     - title: file-text-o
       url: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782321Y8
-      
+
 #- name: Renan Rego  
 #  pic: Renan.jpg
 #  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
@@ -350,19 +350,19 @@ people:
   social:
     - title: file-text-o
       url: http://lattes.cnpq.br/5010668019661821
-      
+
 - name: Renato Rocha Souza
   pic: renato.jpg
-  minibio: Engenheiro Elétrico, possui doutorado em Ciência da Informação pela Universidade Federal de Minas Gerais (UFMG). Atualmente, é professor da Escola de Matemática Aplicada da Fundação Getulio Vargas e da Escola de Ciência da Informação da UFMG. Pesquisa na área de Ciência da Informação. 
+  minibio: Engenheiro Elétrico, possui doutorado em Ciência da Informação pela Universidade Federal de Minas Gerais (UFMG). Atualmente, é professor da Escola de Matemática Aplicada da Fundação Getulio Vargas e da Escola de Ciência da Informação da UFMG. Pesquisa na área de Ciência da Informação.
   tema: eco
   palestra: n
-  social:
-    - title: github
-      url: https://github.com/rsouza
+#  social:
+#    - title: github
+#      url: https://github.com/rsouza
 
 - name: Gustavo Robichez de Carvalho
   pic: gustavo.jpg
-  minibio: Graduado em Engenharia de Computação, possui doutorado em Informática pela Pontofícia Universidade Católica do Rio de Janeiro. Tem experiência nas áreas de Planejamento Estratégico e Engenharia de Software.
+  minibio: Graduado em Engenharia de Computação, possui doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro. Tem experiência nas áreas de Planejamento Estratégico e Engenharia de Software.
   tema: eco
   palestra: n
 #  social:
