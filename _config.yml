@@ -145,6 +145,15 @@ people:
   tema: educ
   palestra: n
 
+- name: Antônio Freitas
+  pic: freitas-jr.jpg
+  minibio: Pró-reitor de Ensino, Pesquisa e Pós-Graduação da Fundação Getulio Vargas, é membro da Academia Brasileira de Educação, da Academia Brasileira de Ciências da Administração, e Conselheiro da Câmara de Educação Superior do Ministério de Educação. É doutor pela North Carolina State University.
+  tema: educ
+  palestra: n
+  social:
+    - title: file-text-o
+      url: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4780487J7
+
 - name: Gustavo Maia
   pic: gustavom.jpg
   minibio: É fundador do Colab, uma rede social para cidadania em que o usuário é capaz de fiscalizar, propor e avaliar diversos pontos da sua cidade, estado e país.
