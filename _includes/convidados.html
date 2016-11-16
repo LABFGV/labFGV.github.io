@@ -17,6 +17,7 @@
 			</div>
 			{% assign nrows = site.people | size | divided_by: 4 %}
 			{% assign tema_people = site.people | where:"tema","educ" | where:"palestra","s" %}
+			{{ tema_people}}
 			{% for i in (1..nrows) %}
 			{% capture startpoint %}{{ i | times: 4 | minus: 4}}{% endcapture %}
 			<br>
