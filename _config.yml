@@ -304,6 +304,17 @@ people:
 #    - title: linkedin
 #      url: https://www.linkedin.com/in/caio-farah-rodriguez-3ab548
 
+- name: Alessandro Molon
+  pic: molon.jpg
+  minibio: Molon (REDE-RJ) é deputado federal. Formado em História e em Direito, Molon é professor de processo legislativo na PUC do Rio. Foi relator do Marco Civil da Internet.
+  tema: eco
+  palestra: s
+  social:
+    - title: file-text-o
+      url: http://molon.com.br/
+    - title: twitter
+      url: https://twitter.com/alessandromolon
+
 - name: Miriam Wimmer
   pic: miriam.jpg
   minibio: Doutora em Políticas de Comunicação e Cultura pela Universidade de Brasília, é diretora do Departamento de Serviços e de Universalização de Telecomunicações do Ministério das Comunicações. Tem ampla experiência no setor público brasileiro, sobretudo no ramo da comunicação.
