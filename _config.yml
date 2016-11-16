@@ -68,6 +68,15 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/pedro-henrique-h-f-de-cristo-97b0a722
       
+- name: Regina de Assis
+  pic: assis.jpg
+  minibio: Atual Secretária de Articulação com os Sistemas de Ensino do Ministério da Educação. Regina é Doutora em educação, ex-secretária Municipal de Educação do Rio de Janeiro, e membro de organizações que estudam efeitos da mídia sobre as crianças.
+  tema: educ
+  palestra: n
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/regina-de-assis-b21ab08a
+      
 - name: Lígia Stocche
   pic: ligia.png
   minibio: Engenheira de formação, mas ao longo da vida migrou para a educação. É fundadora e membro do conselho deliberativo do Movimento Mapa Educação e trabalha na Fundação Lemann.
@@ -109,15 +118,6 @@ people:
 #      url: #####
     - title: linkedin
       url: https://br.linkedin.com/in/francisco-barreto-araujo-1b842326/pt
-
-- name: Regina de Assis
-  pic: assis.jpg
-  minibio: Atual Secretária de Articulação com os Sistemas de Ensino do Ministério da Educação. Regina é Doutora em educação, ex-secretária Municipal de Educação do Rio de Janeiro, e membro de organizações que estudam efeitos da mídia sobre as crianças.
-  tema: educ
-  palestra: n
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/regina-de-assis-b21ab08a
 
 - name: Claudio Lensing
   pic: lensing.jpg
