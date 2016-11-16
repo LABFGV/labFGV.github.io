@@ -315,7 +315,7 @@ people:
 
 - name: Silvio Meira
   pic: silviom.jpg
-  minibio: Idealizador e fundador do C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife), também é um dos fundadores do Porto Digital, que transformou o centro histórico de Recife. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do primeiro comitê gestor da Internet/br.
+  minibio: Idealizador e fundador do CESAR (Centro de Estudos e Sistemas Avançados do Recife), também é um dos fundadores do Porto Digital, que transformou o centro de Recife. Foi assessor da secretaria de política de informática do Ministério da Ciência e Tecnologia e membro do comitê gestor da Internet/br.
   tema: eco
   palestra: s
   social:
@@ -346,8 +346,6 @@ people:
   tema: eco
   palestra: s
   social:
-#    - title: file-text-o
-#      url: ######
     - title: linkedin
       url: https://www.linkedin.com/in/emilio-loures-2b7175
 
