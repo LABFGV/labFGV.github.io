@@ -1,23 +1,26 @@
-<!-- Importante redimensionar de acordo com o número de pessoas; textos tem de estar mais ou menos do mesmo tamanho, se adicionar mais gente precisa de colocar o código de governo digital pros outros; liquid https://help.shopify.com/themes/liquid/tags/iteration-tags -->
+<!-- Importante redimensionar de acordo com o numero de pessoas; textos tem de estar mais ou menos do mesmo tamanho, se adicionar mais gente precisa de colocar o código de governo digital pros outros; liquid https://help.shopify.com/themes/liquid/tags/iteration-tags https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#for-loops -->
     <section id="convidados" class="bg-light-gray">
         <div class="container">
             <div class="row">
 		    	<hr class="section-heading-spacer">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Painelistas</h2>
+                    <h2 class="section-heading">Convidados</h2>
                 </div>
             </div>
-            <!-- sociedade digital -->
+			<br>
+			<!-- sociedade digital -->
 			<div class="row">
 				<h2 class="section-subheading text-muted" align="center">
 					Sociedade Digital
 				</h2>
-				<br>
-				<tr>
-                {% for person in site.people %}
-				{% if person.tema == "educ" %}
-				{% if person.palestra == "s" %}
-				<th>
+			</div>
+			{% assign tema_people = site.people | where:"tema","educ" | where:"palestra","s" %}
+			{% assign nrows = tema_people | size | divided_by: 4.0 | ceil %} <!-- has to be 4.0 or else divided_by will floor the number, and we gotta ceil it; think of 5 people example -->
+			{% for i in (1..nrows) %}
+			{% capture startpoint %}{{ i | times: 4 | minus: 4}}{% endcapture %}
+			<br>
+            <div class="row">
+                {% for person in tema_people limit:4 offset:startpoint} %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo--> <!-- a ordem de limit e offset importa! -->
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-5ths col-lg-3 col-md-4 col-xs-6 -->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
@@ -37,139 +40,84 @@
 						</ul>
                     </div>
                	</div>
-		</th>
-               	{% endif %}
-				{% endif %}
-                {% endfor %}
-				</tr>
 				<br>
+                {% endfor %}
 			</div>
-			<!-- governo digital -->
-            <div class="row">
-				<h2 class="section-subheading text-muted" align="center"> 
+			{% endfor %}
+			<br>
+			<!-- gov digital -->
+			<div class="row">
+				<h2 class="section-subheading text-muted" align="center">
 					Governo Digital
 				</h2>
-				<br>
-                {% for person in site.people limit:4 %}
-				{% if person.tema == "gov" %}
-				{% if person.palestra == "s" %}
-				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- original: col-lg-2 col-md-4 col-xs-6 optimal-for-all: col-lg-3 col-md-4 col-xs-12-->
-					<div class="team-member text-center">
-						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
-						<h4>{{ person.name }}</h4>
-						<p class="text-muted">{{ person.minibio }}</p>
-						<ul class="list-inline social-buttons">
-							<li>
-								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
-							</li>
-						{% for network in person.social %}
-							<li>
-								<a href="{{ network.url }}" target="_blank">
-									<i class="fa fa-{{ network.title }}"></i>
-								</a>
-							</li>
-                        {% endfor %}
-			            </ul>
-                    </div>
-                </div>
-                {% endif %}
-				{% endif %}
-                {% endfor %}
-				<br>
-                {% for person in site.people offset:5 %}
-				{% if person.tema == "gov" %}
-				{% if person.palestra == "s" %}
-				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-2 col-md-4 col-xs-6 -->
-					<div class="team-member text-center">
-						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
-						<h4>{{ person.name }}</h4>
-						<p class="text-muted">{{ person.minibio }}</p>
-						<ul class="list-inline social-buttons">
-							<li>
-								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
-							</li>
-						{% for network in person.social %}
-							<li>
-								<a href="{{ network.url }}" target="_blank">
-									<i class="fa fa-{{ network.title }}"></i>
-								</a>
-							</li>
-                        {% endfor %}
-			            </ul>
-                    </div>
-                </div>
-                {% endif %}
-				{% endif %}
-                {% endfor %}
-		    	<br>
-            </div>
-        <!-- governo digital --> 
-		<div class="row">
-			<h2 class="section-subheading text-muted" align="center">
-				Economia Digital
-			</h2>
+			</div>
+			{% assign tema_people = site.people | where:"tema","gov" | where:"palestra","s" %}
+			{% assign nrows = tema_people | size | divided_by: 4.0 | ceil %}
+			{% for i in (1..nrows) %}
+			{% capture startpoint %}{{ i | times: 4 | minus: 4}}{% endcapture %}
 			<br>
-            {% for person in site.people %}
-			{% if person.tema == "eco" %}
-			{% if person.palestra == "s" %}
-			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!--col-lg-2 col-md-4 col-xs-6 -->
-				<div class="team-member text-center">
-					<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
-					<h4>{{ person.name }}</h4>
-					<p class="text-muted">{{ person.minibio }}</p>
-					<ul class="list-inline social-buttons">
-						<li>
-							<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
-						</li>
+            <div class="row">
+                {% for person in tema_people limit:4 offset:startpoint} %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo--> <!-- a ordem de limit e offset importa! -->
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-5ths col-lg-3 col-md-4 col-xs-6 -->
+					<div class="team-member text-center">
+						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
+						<h4>{{ person.name }}</h4>
+						<p class="text-muted">{{ person.minibio }}</p>
+						<ul class="list-inline social-buttons">
+							<li>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+							</li>
 						{% for network in person.social %}
-						<li>
-							<a href="{{ network.url }}" target="_blank">
-							<i class="fa fa-{{ network.title }}"></i>
-							</a>
-						</li>
+							<li>
+								<a href="{{ network.url }}" target="_blank">
+									<i class="fa fa-{{ network.title }}"></i>
+								</a>
+							</li>
                         {% endfor %}
-
-                    </ul>
-                </div>
-            </div>
-            {% endif %}
-			{% endif %}
-            {% endfor %}
-        </div>
-	    <br>
+						</ul>
+                    </div>
+               	</div>
+				<br>
+                {% endfor %}
+			</div>
+			{% endfor %}
+			<br>
+			<!-- eco digital -->
+			<div class="row">
+				<h2 class="section-subheading text-muted" align="center">
+					Economia Digital
+				</h2>
+			</div>
+			{% assign tema_people = site.people | where:"tema","eco" | where:"palestra","s" %}
+			{% assign nrows = tema_people | size | divided_by: 4.0 | ceil %}
+			{% for i in (1..nrows) %}
+			{% capture startpoint %}{{ i | times: 4 | minus: 4}}{% endcapture %}
+			<br>
+            <div class="row">
+                {% for person in tema_people limit:4 offset:startpoint} %} <!-- offset conta as iterações, e não só as iterações que passaram no teste if abaixo--> <!-- a ordem de limit e offset importa! -->
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-5ths col-lg-3 col-md-4 col-xs-6 -->
+					<div class="team-member text-center">
+						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
+						<h4>{{ person.name }}</h4>
+						<p class="text-muted">{{ person.minibio }}</p>
+						<ul class="list-inline social-buttons">
+							<li>
+								<a class="page-scroll" href="#divisao"><img src="img/pilares/i-gt.png" width="15px" alt="presente no grupo de trabalho"></a>
+							</li>
+						{% for network in person.social %}
+							<li>
+								<a href="{{ network.url }}" target="_blank">
+									<i class="fa fa-{{ network.title }}"></i>
+								</a>
+							</li>
+                        {% endfor %}
+						</ul>
+                    </div>
+               	</div>
+				<br>
+                {% endfor %}
+			</div>
+			{% endfor %}
+			<br>
     </div>
 </section>
-<!-- original:Team Section --> <!--
-    <section id="convidados" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <hr>
-                    <br>
-                    <h2 class="section-heading">Convidados</h2>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-2">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="{{ member.name }}">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.minibio }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}" target="_blank">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
--->
