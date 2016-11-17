@@ -112,7 +112,7 @@ people:
   pic: barretoaraujo.jpg
   minibio: Cientista social, Francisco Barreto Araújo atualmente é diretor de inovação do Viva Rio. Conduz pesquisas nas áreas de ciência, tecnologia e sociedade, com foco na elaboração de políticas públicas.
   tema: educ
-  palestra: n
+  palestra: s
   social:
 #    - title: file-text-o
 #      url: #####
@@ -178,16 +178,7 @@ people:
     - title: facebook
       url: https://www.facebook.com/atlaspolitico/
     - title: linkedin
-      url: https://www.linkedin.com/in/andrei-roman-b1969a7 
-      
-- name: Humberto Martins
-  pic: humbertomartins.png
-  minibio: Diretor do Instituto Publix. Anteriormente, ocupou posições executivas no Ministério da Administração e Reforma do Estado e no Ministério do Planejamento, Orçamento e Gestão, onde foi Secretário de Gestão do governo Lula.
-  tema: gov
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/humberto-falc%C3%A3o-martins-ma-phd-eppgg-idp-pvn-20516014
+      url: https://www.linkedin.com/in/andrei-roman-b1969a7
       
 - name: Guilherme Lichand
   pic: guilhermel.jpg
@@ -225,6 +216,15 @@ people:
       url: http://www.enap.gov.br/web/pt-br 
     - title: facebook
       url: https://www.facebook.com/enapgovbr/
+
+- name: Humberto Martins (Moderador)
+  pic: humbertomartins.png
+  minibio: Diretor do Instituto Publix. Anteriormente, ocupou posições executivas no Ministério da Administração e Reforma do Estado e no Ministério do Planejamento, Orçamento e Gestão, onde foi Secretário de Gestão do governo Lula.
+  tema: gov
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/humberto-falc%C3%A3o-martins-ma-phd-eppgg-idp-pvn-20516014
 
 - name: Pablo Cerdeira
   pic: pablo_cerdeira.png
@@ -332,16 +332,15 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/silviomeira
-
-- name: João Alberto De Negri 
-  pic: joao-de-negri.png
-  minibio: Pesquisador e Diretor do IPEA, João de Negri já foi Vice-Presidente do instituto de 2005 a 2007. Foi também Secretário Executivo do Ministério da Ciência, Tecnologia e Inovação (MCTI) em 2014. Ainda, foi membro da Diretoria Executiva e Diretor de Inovação da FINEP. 
-  tema: eco
-  palestra: s
-  social:
-    - title: file-text-o
-      url: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782321Y8
-      
+#- name: João Alberto De Negri 
+#  pic: joao-de-negri.png
+#  minibio: Pesquisador e Diretor do IPEA, João de Negri já foi Vice-Presidente do instituto de 2005 a 2007. Foi também Secretário Executivo do Ministério da Ciência, Tecnologia e Inovação (MCTI) em 2014. Ainda, foi membro da Diretoria Executiva e Diretor de Inovação da FINEP. 
+#  tema: eco
+#  palestra: s
+#  social:
+#    - title: file-text-o
+#      url: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782321Y8
+#      
 #- name: Renan Rego  
 #  pic: Renan.jpg
 #  minibio: Coordenador da Aceleração da ARTEMISIA e responsável pelas estratégias de prospecção, análise, seleção e aceleração de negócios de impacto social com modelos de negócios escaláveis em educação, saúde, serviços financeiros, habitação, água e saneamento no Brasil.
@@ -359,6 +358,15 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/emilio-loures-2b7175
+
+- name: Eduardo Magrani (Moderador)
+  pic: EduardoMagrani.jpg
+  minibio: Professor da FGV Direito Rio e Coordenador de Projetos no Centro de Tecnologia e Sociedade da FGV, Eduardo Magrani é especialista em políticas para a Internet e autor do livro “Democracia conectada: a internet como ferramenta de engajamento político-democrático”. É Mestre e Doutorando em Direito pela PUC-RJ.
+  tema: eco
+  palestra: s 
+  social: 
+    - title: linkedin
+      url: https://www.linkedin.com/in/eduardo-magrani-78216b21
 
 - name: Caitlin Mulholland
   pic: mulholland.jpg
