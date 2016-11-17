@@ -13,7 +13,7 @@ A edição de 2016 da Conferência Desafio Brasil é organizada pelo <a href="ht
 ___
 
 <div class="col-md-12">
-  <a href="http://www.fgv.br/eventos/?P_EVENTO=2990&P_IDIOMA=0" target="_blank">
+  <a href="https://goo.gl/forms/o9wSDPHhIXn4CcRC2" target="_blank">
     <button class="btn-inscr-b">Inscreva-se aqui</button>
   </a>
 </div>
