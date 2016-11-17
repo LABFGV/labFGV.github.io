@@ -86,17 +86,6 @@ people:
     - title: file-text-o
       url: http://www.mapaeducacao.com/quemsomos.html
 
-- name: Guilherme Melles (Moderador)
-  pic: melles.png
-  minibio: Administrador da página Quebrando o Tabu no Facebook, a qual discute temas como legalização das drogas, homofobia e violência, Guilherme é formado em Comunicação Social pela Cásper Líbero.
-  tema: educ
-  palestra: s
-  social:
-    - title: facebook
-      url: https://www.facebook.com/quebrandootabu/
-    - title: linkedin
-      url: https://br.linkedin.com/in/guilherme-melles-10175363/pt
-
 - name: Carlos Ragazzo
   pic: ragazzo.jpg
   minibio: Professor da FGV Direito Rio, Carlos Ragazzo tem vasta experiência no setor público. Foi Superintendente Geral do Conselho Administrativo de Defesa Econômica – CADE. Possui pós-doutorado em Direito pela Universidade da Califórnia em Berkeley.
@@ -118,6 +107,17 @@ people:
 #      url: #####
     - title: linkedin
       url: https://br.linkedin.com/in/francisco-barreto-araujo-1b842326/pt
+
+- name: Guilherme Melles (Moderador)
+  pic: melles.png
+  minibio: Administrador da página Quebrando o Tabu no Facebook, a qual discute temas como legalização das drogas, homofobia e violência, Guilherme é formado em Comunicação Social pela Cásper Líbero.
+  tema: educ
+  palestra: s
+  social:
+    - title: facebook
+      url: https://www.facebook.com/quebrandootabu/
+    - title: linkedin
+      url: https://br.linkedin.com/in/guilherme-melles-10175363/pt
 
 - name: Claudio Lensing
   pic: lensing.jpg
@@ -217,6 +217,15 @@ people:
     - title: facebook
       url: https://www.facebook.com/enapgovbr/
 
+- name: Luis Felipe Salin Monteiro
+  pic: luis_felipe.jpg
+  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Pública do Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
+  tema: gov
+  palestra: s
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/luisfsmonteiro/pt
+
 - name: Humberto Martins (Moderador)
   pic: humbertomartins.png
   minibio: Diretor do Instituto Publix. Anteriormente, ocupou posições executivas no Ministério da Administração e Reforma do Estado e no Ministério do Planejamento, Orçamento e Gestão, onde foi Secretário de Gestão do governo Lula.
@@ -258,15 +267,6 @@ people:
   minibio: É coordenador de informação da Associação Casa Fluminense, onde coordena o Curso de Políticas Públicas da instituição. Já trabalhou no IBGE, BNDES, IPEA e como assessor-chefe na Secretaria de Desenvolvimento Econômico do estado do RJ.
   tema: gov 
   palestra: n
-
-- name: Luis Felipe Salin Monteiro
-  pic: luis_felipe.jpg
-  minibio: Mestre pela Universidade Católica de Brasília, é o atual Diretor de Modernização da Gestão Pública do Ministério do Planejamento. Tem passagem pelo Ministério das Comunicações e, também, pelo setor privado. 
-  tema: gov
-  palestra: s
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/luisfsmonteiro/pt
 
 - name: Bruno Bondarovsky
   pic: bruno.png
