@@ -24,7 +24,11 @@
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-5ths col-lg-3 col-md-4 col-xs-6 -->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
+						{% if person.mod == "s" %}
+						<h4>{{ person.name }} (Moderador)</h4>
+						{% else %}
 						<h4>{{ person.name }}</h4>
+						{% endif %}
 						<p class="text-muted">{{ person.minibio }}</p>
 						<ul class="list-inline social-buttons">
 							<li>
@@ -60,7 +64,11 @@
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-5ths col-lg-3 col-md-4 col-xs-6 -->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
+						{% if person.mod == "s" %}
+						<h4>{{ person.name }} (Moderador)</h4>
+						{% else %}
 						<h4>{{ person.name }}</h4>
+						{% endif %}
 						<p class="text-muted">{{ person.minibio }}</p>
 						<ul class="list-inline social-buttons">
 							<li>
@@ -96,7 +104,11 @@
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- col-lg-5ths col-lg-3 col-md-4 col-xs-6 -->
 					<div class="team-member text-center">
 						<img src="img/team/{{ person.pic }}" class="img-responsive img-circle" alt="{{ person.name }}">
+						{% if person.mod == "s" %}
+						<h4>{{ person.name }} (Moderador)</h4>
+						{% else %}
 						<h4>{{ person.name }}</h4>
+						{% endif %}
 						<p class="text-muted">{{ person.minibio }}</p>
 						<ul class="list-inline social-buttons">
 							<li>
